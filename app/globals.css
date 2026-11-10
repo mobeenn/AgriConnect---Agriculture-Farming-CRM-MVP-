@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: light; }
+html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
+body { @apply bg-cream text-ink antialiased; font-family: var(--font-body), system-ui, sans-serif; }
+h1, h2, h3 { font-family: var(--font-display), Georgia, serif; letter-spacing: -0.01em; }
+::selection { background: #CFE3C2; color: #244B32; }
+
+/* slim green scrollbars */
+* { scrollbar-width: thin; scrollbar-color: #B9D0AA transparent; }
+::-webkit-scrollbar { width: 8px; height: 8px; }
+::-webkit-scrollbar-thumb { background: #B9D0AA; border-radius: 999px; }
+
+/* SVG illustration motion */
+.sway, .sway-slow { transform-box: fill-box; transform-origin: 50% 100%; animation: sway 3.6s ease-in-out infinite alternate; }
+.sway-slow { animation-duration: 5.5s; }
+.spin-slow { animation: spin 40s linear infinite; }
+.drift { animation: drift 14s ease-in-out infinite alternate; }
+.drift-slow { animation: drift 22s ease-in-out infinite alternate-reverse; }
+
+/* stars inside the half-moon navigation */
+.twinkle { transform-box: fill-box; transform-origin: center; animation: twinkle 3.2s ease-in-out infinite; }
+
+/* Page entrance: children of these containers rise in one after another */
+.page-enter > *, .stagger > * { animation: fadeUp .7s cubic-bezier(.2,.7,.2,1) both; }
+.page-enter > *:nth-child(1), .stagger > *:nth-child(1) { animation-delay: .02s; }
+.page-enter > *:nth-child(2), .stagger > *:nth-child(2) { animation-delay: .09s; }
+.page-enter > *:nth-child(3), .stagger > *:nth-child(3) { animation-delay: .16s; }
+.page-enter > *:nth-child(4), .stagger > *:nth-child(4) { animation-delay: .23s; }
+.page-enter > *:nth-child(5), .stagger > *:nth-child(5) { animation-delay: .30s; }
+.page-enter > *:nth-child(6), .stagger > *:nth-child(6) { animation-delay: .37s; }
+.page-enter > *:nth-child(7), .stagger > *:nth-child(7) { animation-delay: .44s; }
+.page-enter > *:nth-child(n+8), .stagger > *:nth-child(n+8) { animation-delay: .5s; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
+}

@@ -1,0 +1,26 @@
+// Generates the illustrated category images in public/images/categories
+import fs from 'node:fs';
+
+const wheat = (x, y, h) => `<path d="M${x} ${y} C${x - 3} ${y - h / 3} ${x + 3} ${y - 2 * h / 3} ${x} ${y - h}" stroke="#6E9B4E" stroke-width="4" fill="none" stroke-linecap="round"/>` +
+  [0, 1, 2, 3, 4].map((i) => `<ellipse cx="${x - 8}" cy="${y - h + 8 + i * 14}" rx="5" ry="10" transform="rotate(-28 ${x - 8} ${y - h + 8 + i * 14})" fill="#D4A94A"/><ellipse cx="${x + 8}" cy="${y - h + 8 + i * 14}" rx="5" ry="10" transform="rotate(28 ${x + 8} ${y - h + 8 + i * 14})" fill="#D4A94A"/>`).join('') +
+  `<ellipse cx="${x}" cy="${y - h - 12}" rx="5" ry="12" fill="#D4A94A"/>`;
+const leaf = (x, y, s = 1, r = 0, c = '#79A95B') => `<path transform="translate(${x} ${y}) rotate(${r}) scale(${s})" d="M0 0 C-30 -10 -34 -52 0 -64 C34 -52 30 -10 0 0Z" fill="${c}"/>`;
+const sack = (c1, c2, emblem) => `<path d="M125 112 L275 112 L292 248 L108 248Z" fill="${c1}" stroke="${c2}" stroke-width="4" stroke-linejoin="round"/><path d="M138 112 L160 84 L240 84 L262 112Z" fill="${c2}" opacity=".85"/><path d="M150 112 L250 112" stroke="${c2}" stroke-width="3"/>${emblem}`;
+const sproutIcon = `<circle cx="200" cy="184" r="34" fill="#3D7548"/>${leaf(200, 198, 0.55, -20, '#DCE8D4')}${leaf(200, 198, 0.4, 35, '#BFD9A8')}`;
+
+const scenes = {
+  seeds: ['#FFF3CF', '#CFE5B6', `<ellipse cx="200" cy="246" rx="120" ry="32" fill="#8B6748"/><ellipse cx="200" cy="240" rx="96" ry="22" fill="#A07A58"/><path d="M200 238 C198 200 202 175 200 135" stroke="#3D7548" stroke-width="9" fill="none" stroke-linecap="round"/>${leaf(200, 170, 1.15, -62, '#79A95B')}${leaf(200, 146, 1.1, 62, '#3D7548')}<circle cx="120" cy="238" r="6" fill="#D4A94A"/><circle cx="288" cy="240" r="6" fill="#D4A94A"/><circle cx="262" cy="248" r="5" fill="#C9A24A"/>`],
+  fertilizers: ['#F8EBD0', '#E4D3B0', sack('#F6EBD7', '#8B6748', sproutIcon)],
+  pesticides: ['#E6F1D8', '#BCD6A3', `<rect x="158" y="120" width="84" height="130" rx="16" fill="#3D7548"/><rect x="184" y="92" width="32" height="34" fill="#2E5A39"/><path d="M170 78 h62 v16 h-62z" fill="#244B32"/><path d="M232 82 h34 v8 h-34z" fill="#244B32"/><rect x="168" y="152" width="64" height="58" rx="8" fill="#DCE8D4"/>${leaf(200, 198, 0.6, 0, '#3D7548')}<circle cx="278" cy="84" r="4" fill="#9CC9E0"/><circle cx="292" cy="76" r="3" fill="#9CC9E0"/><circle cx="290" cy="94" r="3.5" fill="#9CC9E0"/>`],
+  'agricultural-machinery': ['#FFF1C9', '#CFE0B0', `<rect x="118" y="142" width="150" height="52" rx="10" fill="#E7BD58"/><path d="M196 142 L210 98 H262 L268 142Z" fill="#C79B2E"/><path d="M216 108 H256 L260 138 H208Z" fill="#CFE6F2"/><rect x="132" y="108" width="8" height="38" fill="#244B32"/><circle cx="236" cy="206" r="42" fill="#244B32"/><circle cx="236" cy="206" r="17" fill="#DCE8D4"/><circle cx="146" cy="224" r="24" fill="#244B32"/><circle cx="146" cy="224" r="10" fill="#DCE8D4"/><rect x="104" y="226" width="30" height="8" rx="4" fill="#8B6748"/>`],
+  'irrigation-equipment': ['#E0F0F6', '#C6DEB2', `<path d="M200 56 C228 98 244 118 244 140 A44 44 0 0 1 156 140 C156 118 172 98 200 56Z" fill="#6FB3D2"/><path d="M182 132 C182 150 192 158 204 160" stroke="#fff" stroke-width="5" fill="none" opacity=".6" stroke-linecap="round"/><path d="M50 226 H350" stroke="#244B32" stroke-width="9" stroke-linecap="round"/>${[90, 160, 240, 310].map((x) => `<path d="M${x} 226 V238" stroke="#244B32" stroke-width="4"/><circle cx="${x}" cy="248" r="4" fill="#6FB3D2"/>`).join('')}${leaf(110, 226, 0.5, -30)}${leaf(200, 226, 0.55, 20, '#3D7548')}${leaf(290, 226, 0.5, -10)}`],
+  'grains-and-crops': ['#FFF4D2', '#E8D9A0', `${wheat(140, 252, 130)}${wheat(200, 258, 160)}${wheat(262, 252, 125)}${wheat(100, 258, 90)}${wheat(300, 258, 95)}`],
+  'fruits-and-vegetables': ['#FDE9D6', '#CFE5B6', `<ellipse cx="160" cy="190" rx="62" ry="56" fill="#F09A3E"/><ellipse cx="144" cy="170" rx="18" ry="24" fill="#F7B96B" opacity=".7"/>${leaf(166, 136, 0.6, 30, '#3D7548')}<circle cx="262" cy="206" r="44" fill="#CF4B3A"/><path d="M262 164 C262 152 270 146 278 144" stroke="#5E3B24" stroke-width="5" fill="none" stroke-linecap="round"/>${leaf(272, 156, 0.4, 50, '#3D7548')}<path d="M330 150 L350 246 L318 236Z" fill="#EE8A2C" transform="rotate(-8 330 200)"/>${leaf(336, 150, 0.4, -10, '#5E9A5A')}${leaf(326, 150, 0.4, 28, '#79A95B')}`],
+  'animal-feed': ['#F1E6D3', '#D9CBA3', sack('#C9A878', '#7A5A3A', `<circle cx="200" cy="184" r="34" fill="#F6EBD7"/>${wheat(200, 202, 40)}`) + `<ellipse cx="90" cy="248" rx="38" ry="12" fill="#D4A94A" opacity=".85"/><ellipse cx="318" cy="248" rx="30" ry="10" fill="#D4A94A" opacity=".85"/>`],
+};
+
+for (const [name, [top, ground, art]] of Object.entries(scenes)) {
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300"><defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${top}"/><stop offset="1" stop-color="${ground}"/></linearGradient></defs><rect width="400" height="300" fill="url(#g)"/><circle cx="330" cy="62" r="26" fill="#F3C85C" opacity=".85"/><path d="M0 232 C90 206 200 244 400 214 V300 H0Z" fill="#5E9A5A" opacity=".35"/><path d="M0 262 C120 240 260 276 400 248 V300 H0Z" fill="#3D7548" opacity=".4"/>${art}</svg>`;
+  fs.writeFileSync(`public/images/categories/${name}.svg`, svg);
+}
+console.log('images ok');

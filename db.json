@@ -1,0 +1,3331 @@
+{
+  "settings": {
+    "platformName": "AgriConnect",
+    "defaultCurrency": "PKR",
+    "supportEmail": "support@agriconnect.com",
+    "lowStockDefault": 100
+  },
+  "users": [
+    {
+      "id": "USR-0001",
+      "email": "admin@agriconnect.com",
+      "passwordHash": "scrypt$62091fab8f5fa60ea08fd6af9d240a6d$798c2fffcfa257e5bdcddce9685faf2f0ad33818d5a93cd504950dc539860d087c85fd98974d810a2601c8ccff73faac805084f0ab80436caa037dcd12f7939e",
+      "role": "admin",
+      "refId": null,
+      "name": "Platform Administrator",
+      "status": "Active",
+      "createdAt": "2026-01-13T09:00:00.000Z"
+    },
+    {
+      "id": "USR-BUY-1001",
+      "email": "buyer@agriconnect.com",
+      "passwordHash": "scrypt$bc276710c5d5bb028ed22a3cc89accd3$8c23ec52b280eb45445528094372cf94f421d924bd96d644fa9981fbd9c4ccb37c678b8c607886f23b9e3ea5dfad489ff45696e2da2e3947b1149649d0f46734",
+      "role": "buyer",
+      "refId": "BUY-1001",
+      "status": "Active",
+      "createdAt": "2026-03-04T09:00:00.000Z"
+    },
+    {
+      "id": "USR-BUY-1002",
+      "email": "procurement@almadinafarms.pk",
+      "passwordHash": "scrypt$f50e4b1d3bf198222d71c1331abf7aad$00510b01f5808cf1c5cfb4e54bfab1ba322a9752c53ea187a849f58922d2c5feb056e38fddf5105f2032b9e7f8b4acb1f3d1d105caa6cde17f160675d6d5c636",
+      "role": "buyer",
+      "refId": "BUY-1002",
+      "status": "Active",
+      "createdAt": "2026-03-04T09:00:00.000Z"
+    },
+    {
+      "id": "USR-BUY-1003",
+      "email": "purchasing@rehmanfeed.pk",
+      "passwordHash": "scrypt$8fda8128275472d2614c3741288f5651$62f8963e24df8558ff910b43a3211c0a91c5860c76f334d0d2552d52b35ef4110b5b3e040a710be678591c56153a6d22400c15b8aeb313dc057073ab73db0a90",
+      "role": "buyer",
+      "refId": "BUY-1003",
+      "status": "Active",
+      "createdAt": "2026-03-04T09:00:00.000Z"
+    },
+    {
+      "id": "USR-BUY-1004",
+      "email": "office@sahiwaldairy.pk",
+      "passwordHash": "scrypt$42756ce2c5bd5e02422f6c5d62d9a0ba$11305f39a642eaa335f213a8f90685e84287610b9445c8c185492e4bdcb55116017424effeb92ef5585504698d5df954ab3559e3287be94eacc004d07d95abc1",
+      "role": "buyer",
+      "refId": "BUY-1004",
+      "status": "Active",
+      "createdAt": "2026-03-04T09:00:00.000Z"
+    },
+    {
+      "id": "USR-BUY-1005",
+      "email": "orders@capitalagri.pk",
+      "passwordHash": "scrypt$b0cd987c4867303366015f8979874d98$d63a99ba4c4007b8550ad6289cd8c41b1981a53e1c078fc2c8c930d531b5e4ccffd1d37ab83c7ec7bf036f492a7195e6d1c1fa0e3f8a26564bd62ec32f6eadfe",
+      "role": "buyer",
+      "refId": "BUY-1005",
+      "status": "Active",
+      "createdAt": "2026-03-04T09:00:00.000Z"
+    },
+    {
+      "id": "USR-BUY-1006",
+      "email": "manager@pindiorchards.pk",
+      "passwordHash": "scrypt$65232bf56975e0cc042d9bf09a13882d$48de34214c5142def1479bbd97517f30c7dda968cc08b88f4933f203a992c17fa1ea508cb182d2163ed04a82cac9fa542b683bb37e28a246188edcd91f59c56c",
+      "role": "buyer",
+      "refId": "BUY-1006",
+      "status": "Active",
+      "createdAt": "2026-03-04T09:00:00.000Z"
+    },
+    {
+      "id": "USR-BUY-1007",
+      "email": "secretary@bwpcotton.pk",
+      "passwordHash": "scrypt$0aa7e51337caba936892d61374c42bee$834248fcc1c94271206f5f4e347409b879789aecb66f9c8ab924ef06779cd81f869a44995c25ff4c6c4eda4c990116355ff157f3a44ca5a9ab08e9a4f2c26ab4",
+      "role": "buyer",
+      "refId": "BUY-1007",
+      "status": "Active",
+      "createdAt": "2026-03-04T09:00:00.000Z"
+    },
+    {
+      "id": "USR-BUY-1008",
+      "email": "supply@gjwpoultry.pk",
+      "passwordHash": "scrypt$0d55dd97c617d425e7cb07e28f5f9f7c$e1daec4d2849bd95d3794de11aa492eb09edb95905f4c03273e775bfb38d44e7b538807310e0294605f9bf4aadcb9f68a7d9ec2f739d87feba4a3c5cdd3395d4",
+      "role": "buyer",
+      "refId": "BUY-1008",
+      "status": "Active",
+      "createdAt": "2026-03-04T09:00:00.000Z"
+    },
+    {
+      "id": "USR-SUP-2001",
+      "email": "supplier@agriconnect.com",
+      "passwordHash": "scrypt$8e91d410dcaa5ed8ba3077b25b654a11$9f6f9fb7269ebcc1e0b519b946bc29c7f9675c3c6d5c5eeb2f77223a8deac0654d65466d10d654d844d50f74e2f1fbddcf27fb75b1292a51801fa626ce1970a3",
+      "role": "supplier",
+      "refId": "SUP-2001",
+      "status": "Active",
+      "createdAt": "2026-03-04T09:00:00.000Z"
+    },
+    {
+      "id": "USR-SUP-2002",
+      "email": "sales@sarsabzfert.pk",
+      "passwordHash": "scrypt$5bb76c0834e4370e30ac21ee3bf1fdbf$61f1f6e27be11d5e0bc2ebbda8f8dbc2e33981397fabcedc975b58767363d0d5d8a4502428a848aed115785dbe4d2a0090b1aea38019058aa00d3ff18354fcfd",
+      "role": "supplier",
+      "refId": "SUP-2002",
+      "status": "Active",
+      "createdAt": "2026-03-04T09:00:00.000Z"
+    },
+    {
+      "id": "USR-SUP-2003",
+      "email": "info@kisancropcare.pk",
+      "passwordHash": "scrypt$c01463ec1acdc5c8be8a207f8e7a05ef$75e922f24d456d2861f86a5e1095cfe260c56e1c5d7c9f1955d6151bdd377c1af6be2aa6b4cd5d1e1e76cc3383ab02655581277b34baf31a7003a4a957bb476a",
+      "role": "supplier",
+      "refId": "SUP-2003",
+      "status": "Active",
+      "createdAt": "2026-03-04T09:00:00.000Z"
+    },
+    {
+      "id": "USR-SUP-2004",
+      "email": "sales@alliedtractor.pk",
+      "passwordHash": "scrypt$e3e421d13e5ac6f601c2e2210a8de9ed$8b615df63d473fdbbe972e6aa721ca6c2ec758613a37316c220a1da8bf46cfc314cef27ec6c0041e27e70cc194abaf75c55e77c8a0ae952e10440992ae1acdaa",
+      "role": "supplier",
+      "refId": "SUP-2004",
+      "status": "Active",
+      "createdAt": "2026-03-04T09:00:00.000Z"
+    },
+    {
+      "id": "USR-SUP-2005",
+      "email": "contact@indusdrip.pk",
+      "passwordHash": "scrypt$f6d546f53f157ae62cd719c87971f955$cf75157aa3b15fac9dbb727dec2e96428d0ad2fea5c050012276f3bd285653f0d5de74502824a1d337b1b2624c1c4832880e2291c3b0ef904027b03fa51bbfa3",
+      "role": "supplier",
+      "refId": "SUP-2005",
+      "status": "Active",
+      "createdAt": "2026-03-04T09:00:00.000Z"
+    },
+    {
+      "id": "USR-SUP-2006",
+      "email": "trade@sahiwalgrain.pk",
+      "passwordHash": "scrypt$a7cc9ca5b539f137c2c4ff102c379f32$3a98e385c8a2453ce9a2dee5ab5b3e0bccaa83834131fcfdfa97e651a2790fd1e12eb78cb6f01accf49c5e5b464a4877e6cbf39a220ab1344ae88eb85d3b85e5",
+      "role": "supplier",
+      "refId": "SUP-2006",
+      "status": "Active",
+      "createdAt": "2026-03-04T09:00:00.000Z"
+    },
+    {
+      "id": "USR-SUP-2007",
+      "email": "export@multanmango.pk",
+      "passwordHash": "scrypt$02123b629a8e6d90cbe9111840b284d8$a0e714044483c264b2c7bd5b5cbb547435572bc76ea4291964f1edb1c133cb15dfebda8b998317d519b868b62c1309f63c699e9ec32dd6f748df4fc14e02612c",
+      "role": "supplier",
+      "refId": "SUP-2007",
+      "status": "Active",
+      "createdAt": "2026-03-04T09:00:00.000Z"
+    },
+    {
+      "id": "USR-SUP-2008",
+      "email": "sales@pindifeed.pk",
+      "passwordHash": "scrypt$5bcc61a2b7e7334be82acc9419e71d3f$fd804dac875c3b9ef0a003c6e73796ead7e64c79789db8e4ec66b20f3022bb4616fdd1a242c78a8466f914b75f7d6bce3e997dd8d47e8e11f07eef9577d5c50e",
+      "role": "supplier",
+      "refId": "SUP-2008",
+      "status": "Active",
+      "createdAt": "2026-03-04T09:00:00.000Z"
+    },
+    {
+      "id": "USR-SUP-2009",
+      "email": "hello@zameendarseeds.pk",
+      "passwordHash": "scrypt$7585b31a37db402b01c6c93b91ba8bfe$6f45f7de708f84db94f7f8c81613ffc80431a354d266146664baf1a170062144657220e8f693c337d37a3ff37e629d2aaf192f113f39deedad06548c039c4450",
+      "role": "supplier",
+      "refId": "SUP-2009",
+      "status": "Active",
+      "createdAt": "2026-03-04T09:00:00.000Z"
+    },
+    {
+      "id": "USR-SUP-2010",
+      "email": "orders@chenabagro.pk",
+      "passwordHash": "scrypt$0f534756e7690f56b15527914cbefc66$fc25b1574046c2351a576b95737654267d8008930657669ccc8d549989ed64a1557d0430b6783e7be4a2a31c2db4422d9661dbe0d59244bbf2f6e730917d3ebf",
+      "role": "supplier",
+      "refId": "SUP-2010",
+      "status": "Active",
+      "createdAt": "2026-03-04T09:00:00.000Z"
+    }
+  ],
+  "buyers": [
+    {
+      "id": "BUY-1001",
+      "businessName": "Green Valley Agro Mart",
+      "contactPerson": "Ahmed Raza",
+      "email": "buyer@agriconnect.com",
+      "phone": "+92 300 1112233",
+      "location": "Lahore",
+      "businessType": "Retail Chain",
+      "registrationDate": "2024-02-11",
+      "status": "Active"
+    },
+    {
+      "id": "BUY-1002",
+      "businessName": "Al-Madina Farms",
+      "contactPerson": "Usman Tariq",
+      "email": "procurement@almadinafarms.pk",
+      "phone": "+92 301 2223344",
+      "location": "Multan",
+      "businessType": "Commercial Farm",
+      "registrationDate": "2024-03-02",
+      "status": "Active"
+    },
+    {
+      "id": "BUY-1003",
+      "businessName": "Rehman Feed Mill",
+      "contactPerson": "Bilal Rehman",
+      "email": "purchasing@rehmanfeed.pk",
+      "phone": "+92 302 3334455",
+      "location": "Faisalabad",
+      "businessType": "Feed Mill",
+      "registrationDate": "2024-04-19",
+      "status": "Active"
+    },
+    {
+      "id": "BUY-1004",
+      "businessName": "Sahiwal Dairy Cooperative",
+      "contactPerson": "Imran Gill",
+      "email": "office@sahiwaldairy.pk",
+      "phone": "+92 303 4445566",
+      "location": "Sahiwal",
+      "businessType": "Dairy Cooperative",
+      "registrationDate": "2024-05-07",
+      "status": "Active"
+    },
+    {
+      "id": "BUY-1005",
+      "businessName": "Capital Agri Retail",
+      "contactPerson": "Sana Khalid",
+      "email": "orders@capitalagri.pk",
+      "phone": "+92 304 5556677",
+      "location": "Islamabad",
+      "businessType": "Agri Retailer",
+      "registrationDate": "2024-06-23",
+      "status": "Active"
+    },
+    {
+      "id": "BUY-1006",
+      "businessName": "Pindi Orchards",
+      "contactPerson": "Farhan Malik",
+      "email": "manager@pindiorchards.pk",
+      "phone": "+92 305 6667788",
+      "location": "Rawalpindi",
+      "businessType": "Orchard",
+      "registrationDate": "2024-08-14",
+      "status": "Active"
+    },
+    {
+      "id": "BUY-1007",
+      "businessName": "Bahawalpur Cotton Growers Association",
+      "contactPerson": "Haider Abbas",
+      "email": "secretary@bwpcotton.pk",
+      "phone": "+92 306 7778899",
+      "location": "Bahawalpur",
+      "businessType": "Growers Association",
+      "registrationDate": "2024-09-30",
+      "status": "Active"
+    },
+    {
+      "id": "BUY-1008",
+      "businessName": "Gujranwala Poultry Group",
+      "contactPerson": "Nadia Farooq",
+      "email": "supply@gjwpoultry.pk",
+      "phone": "+92 307 8889900",
+      "location": "Gujranwala",
+      "businessType": "Poultry Farm",
+      "registrationDate": "2024-11-12",
+      "status": "Active"
+    }
+  ],
+  "suppliers": [
+    {
+      "id": "SUP-2001",
+      "businessName": "Fertile Fields Seeds Co.",
+      "contactPerson": "Khurram Shahzad",
+      "email": "supplier@agriconnect.com",
+      "phone": "+92 321 1100221",
+      "location": "Lahore",
+      "supplierCategory": "Seeds",
+      "registrationDate": "2023-11-05",
+      "status": "Active"
+    },
+    {
+      "id": "SUP-2002",
+      "businessName": "Sarsabz Fertilizer Depot",
+      "contactPerson": "Waqar Ahmed",
+      "email": "sales@sarsabzfert.pk",
+      "phone": "+92 322 2200332",
+      "location": "Multan",
+      "supplierCategory": "Fertilizers",
+      "registrationDate": "2023-12-18",
+      "status": "Active"
+    },
+    {
+      "id": "SUP-2003",
+      "businessName": "Kisan Crop Care",
+      "contactPerson": "Tahir Mehmood",
+      "email": "info@kisancropcare.pk",
+      "phone": "+92 323 3300443",
+      "location": "Faisalabad",
+      "supplierCategory": "Pesticides",
+      "registrationDate": "2024-01-09",
+      "status": "Active"
+    },
+    {
+      "id": "SUP-2004",
+      "businessName": "Allied Tractor & Implements",
+      "contactPerson": "Rashid Butt",
+      "email": "sales@alliedtractor.pk",
+      "phone": "+92 324 4400554",
+      "location": "Gujranwala",
+      "supplierCategory": "Agricultural Machinery",
+      "registrationDate": "2024-01-25",
+      "status": "Active"
+    },
+    {
+      "id": "SUP-2005",
+      "businessName": "Indus Drip Irrigation Systems",
+      "contactPerson": "Zainab Iqbal",
+      "email": "contact@indusdrip.pk",
+      "phone": "+92 325 5500665",
+      "location": "Bahawalpur",
+      "supplierCategory": "Irrigation Equipment",
+      "registrationDate": "2024-02-14",
+      "status": "Active"
+    },
+    {
+      "id": "SUP-2006",
+      "businessName": "Sahiwal Grain Merchants",
+      "contactPerson": "Mehboob Ali",
+      "email": "trade@sahiwalgrain.pk",
+      "phone": "+92 326 6600776",
+      "location": "Sahiwal",
+      "supplierCategory": "Grains & Crops",
+      "registrationDate": "2024-03-30",
+      "status": "Active"
+    },
+    {
+      "id": "SUP-2007",
+      "businessName": "Multan Mango & Citrus Growers",
+      "contactPerson": "Asif Qureshi",
+      "email": "export@multanmango.pk",
+      "phone": "+92 327 7700887",
+      "location": "Multan",
+      "supplierCategory": "Fruits & Vegetables",
+      "registrationDate": "2024-04-02",
+      "status": "Active"
+    },
+    {
+      "id": "SUP-2008",
+      "businessName": "Rawalpindi Feed Industries",
+      "contactPerson": "Shahid Mirza",
+      "email": "sales@pindifeed.pk",
+      "phone": "+92 328 8800998",
+      "location": "Rawalpindi",
+      "supplierCategory": "Animal Feed",
+      "registrationDate": "2024-05-21",
+      "status": "Active"
+    },
+    {
+      "id": "SUP-2009",
+      "businessName": "Zameendar Seeds & Agro",
+      "contactPerson": "Fatima Noor",
+      "email": "hello@zameendarseeds.pk",
+      "phone": "+92 329 9900109",
+      "location": "Islamabad",
+      "supplierCategory": "Seeds",
+      "registrationDate": "2024-07-08",
+      "status": "Active"
+    },
+    {
+      "id": "SUP-2010",
+      "businessName": "Chenab Agro Chemicals",
+      "contactPerson": "Adnan Cheema",
+      "email": "orders@chenabagro.pk",
+      "phone": "+92 330 1010210",
+      "location": "Gujranwala",
+      "supplierCategory": "Pesticides",
+      "registrationDate": "2024-08-27",
+      "status": "Active"
+    }
+  ],
+  "products": [
+    {
+      "id": "PRD-3001",
+      "supplierId": "SUP-2001",
+      "name": "Hybrid Maize Seed (8 kg pack)",
+      "category": "Seeds",
+      "description": "High-yield hybrid maize, 98% germination, suited to spring and autumn sowing in Punjab.",
+      "unit": "Bag",
+      "pricePerUnit": 14500,
+      "availableQuantity": 400,
+      "minOrderQuantity": 10,
+      "image": "/images/categories/seeds.svg",
+      "availability": "Available",
+      "lowStockThreshold": 60,
+      "createdAt": "2026-04-23T09:00:00.000Z",
+      "updatedAt": "2026-10-20T09:00:00.000Z"
+    },
+    {
+      "id": "PRD-3002",
+      "supplierId": "SUP-2001",
+      "name": "Wheat Seed Faisalabad-2008",
+      "category": "Seeds",
+      "description": "Certified 40 kg bags, rust tolerant, treated against seed-borne disease.",
+      "unit": "Bag",
+      "pricePerUnit": 6200,
+      "availableQuantity": 850,
+      "minOrderQuantity": 20,
+      "image": "/images/categories/seeds.svg",
+      "availability": "Available",
+      "lowStockThreshold": 100,
+      "createdAt": "2026-04-26T09:00:00.000Z",
+      "updatedAt": "2026-10-21T09:00:00.000Z"
+    },
+    {
+      "id": "PRD-3003",
+      "supplierId": "SUP-2001",
+      "name": "Super Kernel Basmati Rice Seed",
+      "category": "Seeds",
+      "description": "Premium long-grain basmati seed, certified purity 99%.",
+      "unit": "Bag",
+      "pricePerUnit": 9800,
+      "availableQuantity": 90,
+      "minOrderQuantity": 5,
+      "image": "/images/categories/seeds.svg",
+      "availability": "Available",
+      "lowStockThreshold": 100,
+      "createdAt": "2026-04-29T09:00:00.000Z",
+      "updatedAt": "2026-10-22T09:00:00.000Z"
+    },
+    {
+      "id": "PRD-3004",
+      "supplierId": "SUP-2009",
+      "name": "Bt Cotton Seed (450 g)",
+      "category": "Seeds",
+      "description": "Bt cotton variety with CLCuV tolerance and strong boll retention.",
+      "unit": "Bag",
+      "pricePerUnit": 11200,
+      "availableQuantity": 300,
+      "minOrderQuantity": 10,
+      "image": "/images/categories/seeds.svg",
+      "availability": "Available",
+      "lowStockThreshold": 50,
+      "createdAt": "2026-05-02T09:00:00.000Z",
+      "updatedAt": "2026-10-23T09:00:00.000Z"
+    },
+    {
+      "id": "PRD-3005",
+      "supplierId": "SUP-2002",
+      "name": "Urea Fertilizer (50 kg)",
+      "category": "Fertilizers",
+      "description": "Granular urea, 46% nitrogen. Free flowing, moisture protected packaging.",
+      "unit": "Bag",
+      "pricePerUnit": 4650,
+      "availableQuantity": 2400,
+      "minOrderQuantity": 20,
+      "image": "/images/categories/fertilizers.svg",
+      "availability": "Available",
+      "lowStockThreshold": 300,
+      "createdAt": "2026-05-05T09:00:00.000Z",
+      "updatedAt": "2026-10-24T09:00:00.000Z"
+    },
+    {
+      "id": "PRD-3006",
+      "supplierId": "SUP-2002",
+      "name": "DAP Fertilizer (50 kg)",
+      "category": "Fertilizers",
+      "description": "Di-ammonium phosphate 18-46-0 for basal application.",
+      "unit": "Bag",
+      "pricePerUnit": 12400,
+      "availableQuantity": 80,
+      "minOrderQuantity": 10,
+      "image": "/images/categories/fertilizers.svg",
+      "availability": "Available",
+      "lowStockThreshold": 100,
+      "createdAt": "2026-05-08T09:00:00.000Z",
+      "updatedAt": "2026-10-25T09:00:00.000Z"
+    },
+    {
+      "id": "PRD-3007",
+      "supplierId": "SUP-2002",
+      "name": "SOP Potash (50 kg)",
+      "category": "Fertilizers",
+      "description": "Sulphate of potash for fruit, vegetable and cotton crops.",
+      "unit": "Bag",
+      "pricePerUnit": 9800,
+      "availableQuantity": 520,
+      "minOrderQuantity": 10,
+      "image": "/images/categories/fertilizers.svg",
+      "availability": "Available",
+      "lowStockThreshold": 80,
+      "createdAt": "2026-05-11T09:00:00.000Z",
+      "updatedAt": "2026-10-26T09:00:00.000Z"
+    },
+    {
+      "id": "PRD-3008",
+      "supplierId": "SUP-2002",
+      "name": "NPK 20-20-0 Compound (50 kg)",
+      "category": "Fertilizers",
+      "description": "Balanced compound fertilizer for wheat and sugarcane.",
+      "unit": "Bag",
+      "pricePerUnit": 6900,
+      "availableQuantity": 640,
+      "minOrderQuantity": 10,
+      "image": "/images/categories/fertilizers.svg",
+      "availability": "Available",
+      "lowStockThreshold": 80,
+      "createdAt": "2026-05-14T09:00:00.000Z",
+      "updatedAt": "2026-10-27T09:00:00.000Z"
+    },
+    {
+      "id": "PRD-3009",
+      "supplierId": "SUP-2003",
+      "name": "Imidacloprid 200SL Insecticide",
+      "category": "Pesticides",
+      "description": "Systemic insecticide against sucking pests on cotton and vegetables.",
+      "unit": "Liter",
+      "pricePerUnit": 3200,
+      "availableQuantity": 760,
+      "minOrderQuantity": 12,
+      "image": "/images/categories/pesticides.svg",
+      "availability": "Available",
+      "lowStockThreshold": 100,
+      "createdAt": "2026-05-17T09:00:00.000Z",
+      "updatedAt": "2026-10-28T09:00:00.000Z"
+    },
+    {
+      "id": "PRD-3010",
+      "supplierId": "SUP-2010",
+      "name": "Glyphosate 41% Herbicide",
+      "category": "Pesticides",
+      "description": "Non-selective herbicide for pre-sowing weed control.",
+      "unit": "Liter",
+      "pricePerUnit": 1800,
+      "availableQuantity": 1200,
+      "minOrderQuantity": 20,
+      "image": "/images/categories/pesticides.svg",
+      "availability": "Available",
+      "lowStockThreshold": 150,
+      "createdAt": "2026-05-20T09:00:00.000Z",
+      "updatedAt": "2026-10-29T09:00:00.000Z"
+    },
+    {
+      "id": "PRD-3011",
+      "supplierId": "SUP-2003",
+      "name": "Chlorpyrifos 40EC",
+      "category": "Pesticides",
+      "description": "Broad-spectrum insecticide for soil and foliar pests.",
+      "unit": "Liter",
+      "pricePerUnit": 2400,
+      "availableQuantity": 540,
+      "minOrderQuantity": 12,
+      "image": "/images/categories/pesticides.svg",
+      "availability": "Available",
+      "lowStockThreshold": 80,
+      "createdAt": "2026-05-23T09:00:00.000Z",
+      "updatedAt": "2026-10-30T09:00:00.000Z"
+    },
+    {
+      "id": "PRD-3012",
+      "supplierId": "SUP-2004",
+      "name": "Mini Tractor 50 HP",
+      "category": "Agricultural Machinery",
+      "description": "2WD tractor, 50 HP diesel engine, 1-year workshop warranty.",
+      "unit": "Piece",
+      "pricePerUnit": 3450000,
+      "availableQuantity": 2,
+      "minOrderQuantity": 1,
+      "image": "/images/categories/agricultural-machinery.svg",
+      "availability": "Available",
+      "lowStockThreshold": 3,
+      "createdAt": "2026-05-26T09:00:00.000Z",
+      "updatedAt": "2026-10-31T09:00:00.000Z"
+    },
+    {
+      "id": "PRD-3013",
+      "supplierId": "SUP-2004",
+      "name": "Rotavator 7 ft",
+      "category": "Agricultural Machinery",
+      "description": "Heavy duty rotavator for seedbed preparation.",
+      "unit": "Piece",
+      "pricePerUnit": 285000,
+      "availableQuantity": 14,
+      "minOrderQuantity": 1,
+      "image": "/images/categories/agricultural-machinery.svg",
+      "availability": "Available",
+      "lowStockThreshold": 3,
+      "createdAt": "2026-05-29T09:00:00.000Z",
+      "updatedAt": "2026-11-01T09:00:00.000Z"
+    },
+    {
+      "id": "PRD-3014",
+      "supplierId": "SUP-2004",
+      "name": "Seed Drill 11-Row",
+      "category": "Agricultural Machinery",
+      "description": "Precision seed drill with fertilizer box and adjustable row spacing.",
+      "unit": "Piece",
+      "pricePerUnit": 195000,
+      "availableQuantity": 9,
+      "minOrderQuantity": 1,
+      "image": "/images/categories/agricultural-machinery.svg",
+      "availability": "Available",
+      "lowStockThreshold": 3,
+      "createdAt": "2026-06-01T09:00:00.000Z",
+      "updatedAt": "2026-11-02T09:00:00.000Z"
+    },
+    {
+      "id": "PRD-3015",
+      "supplierId": "SUP-2004",
+      "name": "Wheat Thresher",
+      "category": "Agricultural Machinery",
+      "description": "High capacity thresher with cleaning fans, tractor PTO driven.",
+      "unit": "Piece",
+      "pricePerUnit": 420000,
+      "availableQuantity": 5,
+      "minOrderQuantity": 1,
+      "image": "/images/categories/agricultural-machinery.svg",
+      "availability": "Available",
+      "lowStockThreshold": 2,
+      "createdAt": "2026-06-04T09:00:00.000Z",
+      "updatedAt": "2026-11-03T09:00:00.000Z"
+    },
+    {
+      "id": "PRD-3016",
+      "supplierId": "SUP-2005",
+      "name": "Drip Irrigation Kit (1 acre)",
+      "category": "Irrigation Equipment",
+      "description": "Complete drip kit: mainline, laterals, emitters and screen filter.",
+      "unit": "Piece",
+      "pricePerUnit": 78000,
+      "availableQuantity": 40,
+      "minOrderQuantity": 1,
+      "image": "/images/categories/irrigation-equipment.svg",
+      "availability": "Available",
+      "lowStockThreshold": 8,
+      "createdAt": "2026-06-07T09:00:00.000Z",
+      "updatedAt": "2026-10-20T09:00:00.000Z"
+    },
+    {
+      "id": "PRD-3017",
+      "supplierId": "SUP-2005",
+      "name": "Submersible Pump 5 HP",
+      "category": "Irrigation Equipment",
+      "description": "Stainless steel submersible pump, 5 HP, copper winding.",
+      "unit": "Piece",
+      "pricePerUnit": 62000,
+      "availableQuantity": 25,
+      "minOrderQuantity": 1,
+      "image": "/images/categories/irrigation-equipment.svg",
+      "availability": "Available",
+      "lowStockThreshold": 5,
+      "createdAt": "2026-06-10T09:00:00.000Z",
+      "updatedAt": "2026-10-21T09:00:00.000Z"
+    },
+    {
+      "id": "PRD-3018",
+      "supplierId": "SUP-2005",
+      "name": "HDPE Pipe 63 mm (100 m roll)",
+      "category": "Irrigation Equipment",
+      "description": "PN10 rated HDPE pipe, UV stabilised.",
+      "unit": "Piece",
+      "pricePerUnit": 24500,
+      "availableQuantity": 120,
+      "minOrderQuantity": 2,
+      "image": "/images/categories/irrigation-equipment.svg",
+      "availability": "Available",
+      "lowStockThreshold": 20,
+      "createdAt": "2026-06-13T09:00:00.000Z",
+      "updatedAt": "2026-10-22T09:00:00.000Z"
+    },
+    {
+      "id": "PRD-3019",
+      "supplierId": "SUP-2005",
+      "name": "Sprinkler Set (12 heads)",
+      "category": "Irrigation Equipment",
+      "description": "Impact sprinkler set with risers and couplings.",
+      "unit": "Piece",
+      "pricePerUnit": 38000,
+      "availableQuantity": 0,
+      "minOrderQuantity": 1,
+      "image": "/images/categories/irrigation-equipment.svg",
+      "availability": "Out of Stock",
+      "lowStockThreshold": 5,
+      "createdAt": "2026-06-16T09:00:00.000Z",
+      "updatedAt": "2026-10-23T09:00:00.000Z"
+    },
+    {
+      "id": "PRD-3020",
+      "supplierId": "SUP-2006",
+      "name": "Wheat Grain (milling quality)",
+      "category": "Grains & Crops",
+      "description": "Cleaned milling-grade wheat, moisture under 12%.",
+      "unit": "Ton",
+      "pricePerUnit": 118000,
+      "availableQuantity": 150,
+      "minOrderQuantity": 5,
+      "image": "/images/categories/grains-and-crops.svg",
+      "availability": "Available",
+      "lowStockThreshold": 20,
+      "createdAt": "2026-06-19T09:00:00.000Z",
+      "updatedAt": "2026-10-24T09:00:00.000Z"
+    },
+    {
+      "id": "PRD-3021",
+      "supplierId": "SUP-2006",
+      "name": "Basmati Paddy",
+      "category": "Grains & Crops",
+      "description": "Fresh basmati paddy from the Kallar belt, minimum 28% grain elongation.",
+      "unit": "Ton",
+      "pricePerUnit": 165000,
+      "availableQuantity": 90,
+      "minOrderQuantity": 5,
+      "image": "/images/categories/grains-and-crops.svg",
+      "availability": "Available",
+      "lowStockThreshold": 15,
+      "createdAt": "2026-06-22T09:00:00.000Z",
+      "updatedAt": "2026-10-25T09:00:00.000Z"
+    },
+    {
+      "id": "PRD-3022",
+      "supplierId": "SUP-2006",
+      "name": "Yellow Maize Grain",
+      "category": "Grains & Crops",
+      "description": "Dried yellow maize suitable for feed manufacturing.",
+      "unit": "Ton",
+      "pricePerUnit": 88000,
+      "availableQuantity": 210,
+      "minOrderQuantity": 10,
+      "image": "/images/categories/grains-and-crops.svg",
+      "availability": "Available",
+      "lowStockThreshold": 25,
+      "createdAt": "2026-06-25T09:00:00.000Z",
+      "updatedAt": "2026-10-26T09:00:00.000Z"
+    },
+    {
+      "id": "PRD-3023",
+      "supplierId": "SUP-2006",
+      "name": "Desi Chickpeas",
+      "category": "Grains & Crops",
+      "description": "Graded desi chickpeas, hand sorted.",
+      "unit": "Ton",
+      "pricePerUnit": 285000,
+      "availableQuantity": 35,
+      "minOrderQuantity": 2,
+      "image": "/images/categories/grains-and-crops.svg",
+      "availability": "Available",
+      "lowStockThreshold": 10,
+      "createdAt": "2026-06-28T09:00:00.000Z",
+      "updatedAt": "2026-10-27T09:00:00.000Z"
+    },
+    {
+      "id": "PRD-3024",
+      "supplierId": "SUP-2007",
+      "name": "Chaunsa Mangoes (Grade A)",
+      "category": "Fruits & Vegetables",
+      "description": "Tree-ripened Chaunsa mangoes, packed in 10 kg crates.",
+      "unit": "KG",
+      "pricePerUnit": 320,
+      "availableQuantity": 5000,
+      "minOrderQuantity": 100,
+      "image": "/images/categories/fruits-and-vegetables.svg",
+      "availability": "Available",
+      "lowStockThreshold": 500,
+      "createdAt": "2026-07-01T09:00:00.000Z",
+      "updatedAt": "2026-10-28T09:00:00.000Z"
+    },
+    {
+      "id": "PRD-3025",
+      "supplierId": "SUP-2007",
+      "name": "Kinnow Mandarin",
+      "category": "Fruits & Vegetables",
+      "description": "Sargodha-grade kinnow, graded and waxed.",
+      "unit": "KG",
+      "pricePerUnit": 140,
+      "availableQuantity": 8000,
+      "minOrderQuantity": 200,
+      "image": "/images/categories/fruits-and-vegetables.svg",
+      "availability": "Available",
+      "lowStockThreshold": 800,
+      "createdAt": "2026-07-04T09:00:00.000Z",
+      "updatedAt": "2026-10-29T09:00:00.000Z"
+    },
+    {
+      "id": "PRD-3026",
+      "supplierId": "SUP-2007",
+      "name": "Potatoes (Table Grade)",
+      "category": "Fruits & Vegetables",
+      "description": "Washed and graded table potatoes, 50 kg sacks.",
+      "unit": "Ton",
+      "pricePerUnit": 65000,
+      "availableQuantity": 40,
+      "minOrderQuantity": 2,
+      "image": "/images/categories/fruits-and-vegetables.svg",
+      "availability": "Available",
+      "lowStockThreshold": 8,
+      "createdAt": "2026-07-07T09:00:00.000Z",
+      "updatedAt": "2026-10-30T09:00:00.000Z"
+    },
+    {
+      "id": "PRD-3027",
+      "supplierId": "SUP-2007",
+      "name": "Onions (Red)",
+      "category": "Fruits & Vegetables",
+      "description": "Firm red onions with good shelf life.",
+      "unit": "Ton",
+      "pricePerUnit": 80000,
+      "availableQuantity": 15,
+      "minOrderQuantity": 2,
+      "image": "/images/categories/fruits-and-vegetables.svg",
+      "availability": "Available",
+      "lowStockThreshold": 20,
+      "createdAt": "2026-07-10T09:00:00.000Z",
+      "updatedAt": "2026-10-31T09:00:00.000Z"
+    },
+    {
+      "id": "PRD-3028",
+      "supplierId": "SUP-2008",
+      "name": "Poultry Layer Feed (50 kg)",
+      "category": "Animal Feed",
+      "description": "Complete layer ration with calcium and amino acid balance.",
+      "unit": "Bag",
+      "pricePerUnit": 5600,
+      "availableQuantity": 1800,
+      "minOrderQuantity": 20,
+      "image": "/images/categories/animal-feed.svg",
+      "availability": "Available",
+      "lowStockThreshold": 200,
+      "createdAt": "2026-07-13T09:00:00.000Z",
+      "updatedAt": "2026-11-01T09:00:00.000Z"
+    },
+    {
+      "id": "PRD-3029",
+      "supplierId": "SUP-2008",
+      "name": "Dairy Cattle Concentrate (50 kg)",
+      "category": "Animal Feed",
+      "description": "18% protein concentrate for lactating cattle and buffalo.",
+      "unit": "Bag",
+      "pricePerUnit": 4300,
+      "availableQuantity": 950,
+      "minOrderQuantity": 20,
+      "image": "/images/categories/animal-feed.svg",
+      "availability": "Available",
+      "lowStockThreshold": 150,
+      "createdAt": "2026-07-16T09:00:00.000Z",
+      "updatedAt": "2026-11-02T09:00:00.000Z"
+    },
+    {
+      "id": "PRD-3030",
+      "supplierId": "SUP-2008",
+      "name": "Cottonseed Cake (50 kg)",
+      "category": "Animal Feed",
+      "description": "Expeller pressed cottonseed cake, high protein.",
+      "unit": "Bag",
+      "pricePerUnit": 3900,
+      "availableQuantity": 60,
+      "minOrderQuantity": 20,
+      "image": "/images/categories/animal-feed.svg",
+      "availability": "Available",
+      "lowStockThreshold": 100,
+      "createdAt": "2026-07-19T09:00:00.000Z",
+      "updatedAt": "2026-11-03T09:00:00.000Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": "ORD-1001",
+      "requestId": "REQ-5001",
+      "buyerId": "BUY-1001",
+      "supplierId": "SUP-2001",
+      "productId": "PRD-3001",
+      "productName": "Hybrid Maize Seed (8 kg pack)",
+      "category": "Seeds",
+      "unit": "Bag",
+      "quantity": 40,
+      "deliveryLocation": "Lahore Cantt",
+      "requirements": "Sealed original packs only.",
+      "status": "Completed",
+      "quotationId": "QUO-6001",
+      "unitPrice": 13920,
+      "totalPrice": 556800,
+      "deliveryInfo": {
+        "expectedDate": "2026-06-20",
+        "carrier": "Truck",
+        "note": "Dispatched from supplier warehouse."
+      },
+      "inventoryReserved": false,
+      "statusHistory": [
+        {
+          "status": "Pending",
+          "at": "2026-06-12T09:00:00.000Z",
+          "note": "Purchase request submitted"
+        },
+        {
+          "status": "Quotation Submitted",
+          "at": "2026-06-12T23:00:00.000Z",
+          "note": ""
+        },
+        {
+          "status": "Accepted",
+          "at": "2026-06-13T13:00:00.000Z",
+          "note": ""
+        },
+        {
+          "status": "Processing",
+          "at": "2026-06-14T03:00:00.000Z",
+          "note": ""
+        },
+        {
+          "status": "Dispatched",
+          "at": "2026-06-14T17:00:00.000Z",
+          "note": ""
+        },
+        {
+          "status": "Delivered",
+          "at": "2026-06-15T07:00:00.000Z",
+          "note": ""
+        },
+        {
+          "status": "Completed",
+          "at": "2026-06-15T21:00:00.000Z",
+          "note": ""
+        }
+      ],
+      "createdAt": "2026-06-12T09:00:00.000Z",
+      "updatedAt": "2026-06-15T21:00:00.000Z"
+    },
+    {
+      "id": "ORD-1002",
+      "requestId": "REQ-5002",
+      "buyerId": "BUY-1001",
+      "supplierId": "SUP-2001",
+      "productId": "PRD-3003",
+      "productName": "Super Kernel Basmati Rice Seed",
+      "category": "Seeds",
+      "unit": "Bag",
+      "quantity": 25,
+      "deliveryLocation": "Lahore Cantt",
+      "requirements": "",
+      "status": "Completed",
+      "quotationId": "QUO-6002",
+      "unitPrice": 9506,
+      "totalPrice": 237650,
+      "deliveryInfo": {
+        "expectedDate": "2026-07-20",
+        "carrier": "Truck",
+        "note": "Dispatched from supplier warehouse."
+      },
+      "inventoryReserved": false,
+      "statusHistory": [
+        {
+          "status": "Pending",
+          "at": "2026-07-12T09:00:00.000Z",
+          "note": "Purchase request submitted"
+        },
+        {
+          "status": "Quotation Submitted",
+          "at": "2026-07-12T23:00:00.000Z",
+          "note": ""
+        },
+        {
+          "status": "Accepted",
+          "at": "2026-07-13T13:00:00.000Z",
+          "note": ""
+        },
+        {
+          "status": "Processing",
+          "at": "2026-07-14T03:00:00.000Z",
+          "note": ""
+        },
+        {
+          "status": "Dispatched",
+          "at": "2026-07-14T17:00:00.000Z",
+          "note": ""
+        },
+        {
+          "status": "Delivered",
+          "at": "2026-07-15T07:00:00.000Z",
+          "note": ""
+        },
+        {
+          "status": "Completed",
+          "at": "2026-07-15T21:00:00.000Z",
+          "note": ""
+        }
+      ],
+      "createdAt": "2026-07-12T09:00:00.000Z",
+      "updatedAt": "2026-07-15T21:00:00.000Z"
+    },
+    {
+      "id": "ORD-1003",
+      "requestId": "REQ-5003",
+      "buyerId": "BUY-1002",
+      "supplierId": "SUP-2002",
+      "productId": "PRD-3005",
+      "productName": "Urea Fertilizer (50 kg)",
+      "category": "Fertilizers",
+      "unit": "Bag",
+      "quantity": 200,
+      "deliveryLocation": "Multan Road, Khanewal",
+      "requirements": "Delivery before sowing season.",
+      "status": "Completed",
+      "quotationId": "QUO-6003",
+      "unitPrice": 4557,
+      "totalPrice": 911400,
+      "deliveryInfo": {
+        "expectedDate": "2026-07-30",
+        "carrier": "Truck",
+        "note": "Dispatched from supplier warehouse."
+      },
+      "inventoryReserved": false,
+      "statusHistory": [
+        {
+          "status": "Pending",
+          "at": "2026-07-22T09:00:00.000Z",
+          "note": "Purchase request submitted"
+        },
+        {
+          "status": "Quotation Submitted",
+          "at": "2026-07-22T23:00:00.000Z",
+          "note": ""
+        },
+        {
+          "status": "Accepted",
+          "at": "2026-07-23T13:00:00.000Z",
+          "note": ""
+        },
+        {
+          "status": "Processing",
+          "at": "2026-07-24T03:00:00.000Z",
+          "note": ""
+        },
+        {
+          "status": "Dispatched",
+          "at": "2026-07-24T17:00:00.000Z",
+          "note": ""
+        },
+        {
+          "status": "Delivered",
+          "at": "2026-07-25T07:00:00.000Z",
+          "note": ""
+        },
+        {
+          "status": "Completed",
+          "at": "2026-07-25T21:00:00.000Z",
+          "note": ""
+        }
+      ],
+      "createdAt": "2026-07-22T09:00:00.000Z",
+      "updatedAt": "2026-07-25T21:00:00.000Z"
+    },
+    {
+      "id": "ORD-1004",
+      "requestId": "REQ-5004",
+      "buyerId": "BUY-1003",
+      "supplierId": "SUP-2008",
+      "productId": "PRD-3028",
+      "productName": "Poultry Layer Feed (50 kg)",
+      "category": "Animal Feed",
+      "unit": "Bag",
+      "quantity": 150,
+      "deliveryLocation": "Faisalabad Industrial Estate",
+      "requirements": "",
+      "status": "Completed",
+      "quotationId": "QUO-6004",
+      "unitPrice": 5544,
+      "totalPrice": 831600,
+      "deliveryInfo": {
+        "expectedDate": "2026-08-14",
+        "carrier": "Truck",
+        "note": "Dispatched from supplier warehouse."
+      },
+      "inventoryReserved": false,
+      "statusHistory": [
+        {
+          "status": "Pending",
+          "at": "2026-08-06T09:00:00.000Z",
+          "note": "Purchase request submitted"
+        },
+        {
+          "status": "Quotation Submitted",
+          "at": "2026-08-06T23:00:00.000Z",
+          "note": ""
+        },
+        {
+          "status": "Accepted",
+          "at": "2026-08-07T13:00:00.000Z",
+          "note": ""
+        },
+        {
+          "status": "Processing",
+          "at": "2026-08-08T03:00:00.000Z",
+          "note": ""
+        },
+        {
+          "status": "Dispatched",
+          "at": "2026-08-08T17:00:00.000Z",
+          "note": ""
+        },
+        {
+          "status": "Delivered",
+          "at": "2026-08-09T07:00:00.000Z",
+          "note": ""
+        },
+        {
+          "status": "Completed",
+          "at": "2026-08-09T21:00:00.000Z",
+          "note": ""
+        }
+      ],
+      "createdAt": "2026-08-06T09:00:00.000Z",
+      "updatedAt": "2026-08-09T21:00:00.000Z"
+    },
+    {
+      "id": "ORD-1005",
+      "requestId": "REQ-5005",
+      "buyerId": "BUY-1001",
+      "supplierId": "SUP-2001",
+      "productId": "PRD-3002",
+      "productName": "Wheat Seed Faisalabad-2008",
+      "category": "Seeds",
+      "unit": "Bag",
+      "quantity": 60,
+      "deliveryLocation": "Lahore Cantt",
+      "requirements": "Treated seed preferred.",
+      "status": "Delivered",
+      "quotationId": "QUO-6005",
+      "unitPrice": 5952,
+      "totalPrice": 357120,
+      "deliveryInfo": {
+        "expectedDate": "2026-10-28",
+        "carrier": "Truck",
+        "note": "Dispatched from supplier warehouse."
+      },
+      "inventoryReserved": true,
+      "statusHistory": [
+        {
+          "status": "Pending",
+          "at": "2026-10-20T09:00:00.000Z",
+          "note": "Purchase request submitted"
+        },
+        {
+          "status": "Quotation Submitted",
+          "at": "2026-10-20T23:00:00.000Z",
+          "note": ""
+        },
+        {
+          "status": "Accepted",
+          "at": "2026-10-21T13:00:00.000Z",
+          "note": ""
+        },
+        {
+          "status": "Processing",
+          "at": "2026-10-22T03:00:00.000Z",
+          "note": ""
+        },
+        {
+          "status": "Dispatched",
+          "at": "2026-10-22T17:00:00.000Z",
+          "note": ""
+        },
+        {
+          "status": "Delivered",
+          "at": "2026-10-23T07:00:00.000Z",
+          "note": ""
+        }
+      ],
+      "createdAt": "2026-10-20T09:00:00.000Z",
+      "updatedAt": "2026-10-23T07:00:00.000Z"
+    },
+    {
+      "id": "ORD-1006",
+      "requestId": "REQ-5006",
+      "buyerId": "BUY-1004",
+      "supplierId": "SUP-2008",
+      "productId": "PRD-3029",
+      "productName": "Dairy Cattle Concentrate (50 kg)",
+      "category": "Animal Feed",
+      "unit": "Bag",
+      "quantity": 80,
+      "deliveryLocation": "Sahiwal City",
+      "requirements": "",
+      "status": "Dispatched",
+      "quotationId": "QUO-6006",
+      "unitPrice": 4171,
+      "totalPrice": 333680,
+      "deliveryInfo": {
+        "expectedDate": "2026-11-03",
+        "carrier": "Truck",
+        "note": "Dispatched from supplier warehouse."
+      },
+      "inventoryReserved": true,
+      "statusHistory": [
+        {
+          "status": "Pending",
+          "at": "2026-10-26T09:00:00.000Z",
+          "note": "Purchase request submitted"
+        },
+        {
+          "status": "Quotation Submitted",
+          "at": "2026-10-26T23:00:00.000Z",
+          "note": ""
+        },
+        {
+          "status": "Accepted",
+          "at": "2026-10-27T13:00:00.000Z",
+          "note": ""
+        },
+        {
+          "status": "Processing",
+          "at": "2026-10-28T03:00:00.000Z",
+          "note": ""
+        },
+        {
+          "status": "Dispatched",
+          "at": "2026-10-28T17:00:00.000Z",
+          "note": ""
+        }
+      ],
+      "createdAt": "2026-10-26T09:00:00.000Z",
+      "updatedAt": "2026-10-28T17:00:00.000Z"
+    },
+    {
+      "id": "ORD-1007",
+      "requestId": "REQ-5007",
+      "buyerId": "BUY-1005",
+      "supplierId": "SUP-2005",
+      "productId": "PRD-3016",
+      "productName": "Drip Irrigation Kit (1 acre)",
+      "category": "Irrigation Equipment",
+      "unit": "Piece",
+      "quantity": 4,
+      "deliveryLocation": "Islamabad, Sector I-9",
+      "requirements": "Include installation guide.",
+      "status": "Dispatched",
+      "quotationId": "QUO-6007",
+      "unitPrice": 76440,
+      "totalPrice": 305760,
+      "deliveryInfo": {
+        "expectedDate": "2026-11-05",
+        "carrier": "Truck",
+        "note": "Dispatched from supplier warehouse."
+      },
+      "inventoryReserved": true,
+      "statusHistory": [
+        {
+          "status": "Pending",
+          "at": "2026-10-28T09:00:00.000Z",
+          "note": "Purchase request submitted"
+        },
+        {
+          "status": "Quotation Submitted",
+          "at": "2026-10-28T23:00:00.000Z",
+          "note": ""
+        },
+        {
+          "status": "Accepted",
+          "at": "2026-10-29T13:00:00.000Z",
+          "note": ""
+        },
+        {
+          "status": "Processing",
+          "at": "2026-10-30T03:00:00.000Z",
+          "note": ""
+        },
+        {
+          "status": "Dispatched",
+          "at": "2026-10-30T17:00:00.000Z",
+          "note": ""
+        }
+      ],
+      "createdAt": "2026-10-28T09:00:00.000Z",
+      "updatedAt": "2026-10-30T17:00:00.000Z"
+    },
+    {
+      "id": "ORD-1008",
+      "requestId": "REQ-5008",
+      "buyerId": "BUY-1002",
+      "supplierId": "SUP-2002",
+      "productId": "PRD-3006",
+      "productName": "DAP Fertilizer (50 kg)",
+      "category": "Fertilizers",
+      "unit": "Bag",
+      "quantity": 120,
+      "deliveryLocation": "Multan Road, Khanewal",
+      "requirements": "",
+      "status": "Processing",
+      "quotationId": "QUO-6008",
+      "unitPrice": 12276,
+      "totalPrice": 1473120,
+      "deliveryInfo": null,
+      "inventoryReserved": true,
+      "statusHistory": [
+        {
+          "status": "Pending",
+          "at": "2026-10-31T09:00:00.000Z",
+          "note": "Purchase request submitted"
+        },
+        {
+          "status": "Quotation Submitted",
+          "at": "2026-10-31T23:00:00.000Z",
+          "note": ""
+        },
+        {
+          "status": "Accepted",
+          "at": "2026-11-01T13:00:00.000Z",
+          "note": ""
+        },
+        {
+          "status": "Processing",
+          "at": "2026-11-02T03:00:00.000Z",
+          "note": ""
+        }
+      ],
+      "createdAt": "2026-10-31T09:00:00.000Z",
+      "updatedAt": "2026-11-02T03:00:00.000Z"
+    },
+    {
+      "id": "ORD-1009",
+      "requestId": "REQ-5009",
+      "buyerId": "BUY-1001",
+      "supplierId": "SUP-2001",
+      "productId": "PRD-3001",
+      "productName": "Hybrid Maize Seed (8 kg pack)",
+      "category": "Seeds",
+      "unit": "Bag",
+      "quantity": 30,
+      "deliveryLocation": "Lahore Cantt",
+      "requirements": "Split delivery in two lots.",
+      "status": "Processing",
+      "quotationId": "QUO-6009",
+      "unitPrice": 13920,
+      "totalPrice": 417600,
+      "deliveryInfo": null,
+      "inventoryReserved": true,
+      "statusHistory": [
+        {
+          "status": "Pending",
+          "at": "2026-11-01T09:00:00.000Z",
+          "note": "Purchase request submitted"
+        },
+        {
+          "status": "Quotation Submitted",
+          "at": "2026-11-01T23:00:00.000Z",
+          "note": ""
+        },
+        {
+          "status": "Accepted",
+          "at": "2026-11-02T13:00:00.000Z",
+          "note": ""
+        },
+        {
+          "status": "Processing",
+          "at": "2026-11-03T03:00:00.000Z",
+          "note": ""
+        }
+      ],
+      "createdAt": "2026-11-01T09:00:00.000Z",
+      "updatedAt": "2026-11-03T03:00:00.000Z"
+    },
+    {
+      "id": "ORD-1010",
+      "requestId": "REQ-5010",
+      "buyerId": "BUY-1006",
+      "supplierId": "SUP-2007",
+      "productId": "PRD-3024",
+      "productName": "Chaunsa Mangoes (Grade A)",
+      "category": "Fruits & Vegetables",
+      "unit": "KG",
+      "quantity": 800,
+      "deliveryLocation": "Rawalpindi Fruit Market",
+      "requirements": "Crate packing, 10 kg each.",
+      "status": "Processing",
+      "quotationId": "QUO-6010",
+      "unitPrice": 310,
+      "totalPrice": 248000,
+      "deliveryInfo": null,
+      "inventoryReserved": true,
+      "statusHistory": [
+        {
+          "status": "Pending",
+          "at": "2026-11-02T09:00:00.000Z",
+          "note": "Purchase request submitted"
+        },
+        {
+          "status": "Quotation Submitted",
+          "at": "2026-11-02T23:00:00.000Z",
+          "note": ""
+        },
+        {
+          "status": "Accepted",
+          "at": "2026-11-03T13:00:00.000Z",
+          "note": ""
+        },
+        {
+          "status": "Processing",
+          "at": "2026-11-04T03:00:00.000Z",
+          "note": ""
+        }
+      ],
+      "createdAt": "2026-11-02T09:00:00.000Z",
+      "updatedAt": "2026-11-04T03:00:00.000Z"
+    },
+    {
+      "id": "ORD-1011",
+      "requestId": "REQ-5011",
+      "buyerId": "BUY-1007",
+      "supplierId": "SUP-2006",
+      "productId": "PRD-3020",
+      "productName": "Wheat Grain (milling quality)",
+      "category": "Grains & Crops",
+      "unit": "Ton",
+      "quantity": 25,
+      "deliveryLocation": "Bahawalpur Grain Market",
+      "requirements": "",
+      "status": "Accepted",
+      "quotationId": "QUO-6011",
+      "unitPrice": 115640,
+      "totalPrice": 2891000,
+      "deliveryInfo": null,
+      "inventoryReserved": true,
+      "statusHistory": [
+        {
+          "status": "Pending",
+          "at": "2026-11-03T09:00:00.000Z",
+          "note": "Purchase request submitted"
+        },
+        {
+          "status": "Quotation Submitted",
+          "at": "2026-11-03T23:00:00.000Z",
+          "note": ""
+        },
+        {
+          "status": "Accepted",
+          "at": "2026-11-04T13:00:00.000Z",
+          "note": ""
+        }
+      ],
+      "createdAt": "2026-11-03T09:00:00.000Z",
+      "updatedAt": "2026-11-04T13:00:00.000Z"
+    },
+    {
+      "id": "ORD-1012",
+      "requestId": "REQ-5012",
+      "buyerId": "BUY-1008",
+      "supplierId": "SUP-2003",
+      "productId": "PRD-3009",
+      "productName": "Imidacloprid 200SL Insecticide",
+      "category": "Pesticides",
+      "unit": "Liter",
+      "quantity": 60,
+      "deliveryLocation": "Gujranwala, GT Road",
+      "requirements": "",
+      "status": "Accepted",
+      "quotationId": "QUO-6012",
+      "unitPrice": 3168,
+      "totalPrice": 190080,
+      "deliveryInfo": null,
+      "inventoryReserved": true,
+      "statusHistory": [
+        {
+          "status": "Pending",
+          "at": "2026-11-04T09:00:00.000Z",
+          "note": "Purchase request submitted"
+        },
+        {
+          "status": "Quotation Submitted",
+          "at": "2026-11-04T23:00:00.000Z",
+          "note": ""
+        },
+        {
+          "status": "Accepted",
+          "at": "2026-11-05T13:00:00.000Z",
+          "note": ""
+        }
+      ],
+      "createdAt": "2026-11-04T09:00:00.000Z",
+      "updatedAt": "2026-11-05T13:00:00.000Z"
+    },
+    {
+      "id": "ORD-1013",
+      "requestId": "REQ-5013",
+      "buyerId": "BUY-1001",
+      "supplierId": "SUP-2001",
+      "productId": "PRD-3003",
+      "productName": "Super Kernel Basmati Rice Seed",
+      "category": "Seeds",
+      "unit": "Bag",
+      "quantity": 15,
+      "deliveryLocation": "Lahore Cantt",
+      "requirements": "Need certificate of purity.",
+      "status": "Quotation Submitted",
+      "quotationId": "QUO-6013",
+      "unitPrice": 9408,
+      "totalPrice": 141120,
+      "deliveryInfo": null,
+      "inventoryReserved": false,
+      "statusHistory": [
+        {
+          "status": "Pending",
+          "at": "2026-11-05T09:00:00.000Z",
+          "note": "Purchase request submitted"
+        },
+        {
+          "status": "Quotation Submitted",
+          "at": "2026-11-05T23:00:00.000Z",
+          "note": ""
+        }
+      ],
+      "createdAt": "2026-11-05T09:00:00.000Z",
+      "updatedAt": "2026-11-05T23:00:00.000Z"
+    },
+    {
+      "id": "ORD-1014",
+      "requestId": "REQ-5014",
+      "buyerId": "BUY-1003",
+      "supplierId": "SUP-2008",
+      "productId": "PRD-3030",
+      "productName": "Cottonseed Cake (50 kg)",
+      "category": "Animal Feed",
+      "unit": "Bag",
+      "quantity": 100,
+      "deliveryLocation": "Faisalabad Industrial Estate",
+      "requirements": "",
+      "status": "Quotation Submitted",
+      "quotationId": "QUO-6014",
+      "unitPrice": 3783,
+      "totalPrice": 378300,
+      "deliveryInfo": null,
+      "inventoryReserved": false,
+      "statusHistory": [
+        {
+          "status": "Pending",
+          "at": "2026-11-06T09:00:00.000Z",
+          "note": "Purchase request submitted"
+        },
+        {
+          "status": "Quotation Submitted",
+          "at": "2026-11-06T23:00:00.000Z",
+          "note": ""
+        }
+      ],
+      "createdAt": "2026-11-06T09:00:00.000Z",
+      "updatedAt": "2026-11-06T23:00:00.000Z"
+    },
+    {
+      "id": "ORD-1015",
+      "requestId": "REQ-5015",
+      "buyerId": "BUY-1005",
+      "supplierId": "SUP-2004",
+      "productId": "PRD-3013",
+      "productName": "Rotavator 7 ft",
+      "category": "Agricultural Machinery",
+      "unit": "Piece",
+      "quantity": 2,
+      "deliveryLocation": "Islamabad, Sector I-9",
+      "requirements": "",
+      "status": "Quotation Submitted",
+      "quotationId": "QUO-6015",
+      "unitPrice": 279300,
+      "totalPrice": 558600,
+      "deliveryInfo": null,
+      "inventoryReserved": false,
+      "statusHistory": [
+        {
+          "status": "Pending",
+          "at": "2026-11-06T09:00:00.000Z",
+          "note": "Purchase request submitted"
+        },
+        {
+          "status": "Quotation Submitted",
+          "at": "2026-11-06T23:00:00.000Z",
+          "note": ""
+        }
+      ],
+      "createdAt": "2026-11-06T09:00:00.000Z",
+      "updatedAt": "2026-11-06T23:00:00.000Z"
+    },
+    {
+      "id": "ORD-1016",
+      "requestId": "REQ-5016",
+      "buyerId": "BUY-1001",
+      "supplierId": "SUP-2001",
+      "productId": "PRD-3002",
+      "productName": "Wheat Seed Faisalabad-2008",
+      "category": "Seeds",
+      "unit": "Bag",
+      "quantity": 50,
+      "deliveryLocation": "Lahore Cantt",
+      "requirements": "Please quote for bulk rate.",
+      "status": "Pending",
+      "quotationId": null,
+      "unitPrice": null,
+      "totalPrice": null,
+      "deliveryInfo": null,
+      "inventoryReserved": false,
+      "statusHistory": [
+        {
+          "status": "Pending",
+          "at": "2026-11-07T09:00:00.000Z",
+          "note": "Purchase request submitted"
+        }
+      ],
+      "createdAt": "2026-11-07T09:00:00.000Z",
+      "updatedAt": "2026-11-07T09:00:00.000Z"
+    },
+    {
+      "id": "ORD-1017",
+      "requestId": "REQ-5017",
+      "buyerId": "BUY-1004",
+      "supplierId": "SUP-2010",
+      "productId": "PRD-3010",
+      "productName": "Glyphosate 41% Herbicide",
+      "category": "Pesticides",
+      "unit": "Liter",
+      "quantity": 40,
+      "deliveryLocation": "Sahiwal City",
+      "requirements": "",
+      "status": "Pending",
+      "quotationId": null,
+      "unitPrice": null,
+      "totalPrice": null,
+      "deliveryInfo": null,
+      "inventoryReserved": false,
+      "statusHistory": [
+        {
+          "status": "Pending",
+          "at": "2026-11-08T09:00:00.000Z",
+          "note": "Purchase request submitted"
+        }
+      ],
+      "createdAt": "2026-11-08T09:00:00.000Z",
+      "updatedAt": "2026-11-08T09:00:00.000Z"
+    },
+    {
+      "id": "ORD-1018",
+      "requestId": "REQ-5018",
+      "buyerId": "BUY-1006",
+      "supplierId": "SUP-2007",
+      "productId": "PRD-3026",
+      "productName": "Potatoes (Table Grade)",
+      "category": "Fruits & Vegetables",
+      "unit": "Ton",
+      "quantity": 10,
+      "deliveryLocation": "Rawalpindi Fruit Market",
+      "requirements": "Washed potatoes only.",
+      "status": "Pending",
+      "quotationId": null,
+      "unitPrice": null,
+      "totalPrice": null,
+      "deliveryInfo": null,
+      "inventoryReserved": false,
+      "statusHistory": [
+        {
+          "status": "Pending",
+          "at": "2026-11-08T09:00:00.000Z",
+          "note": "Purchase request submitted"
+        }
+      ],
+      "createdAt": "2026-11-08T09:00:00.000Z",
+      "updatedAt": "2026-11-08T09:00:00.000Z"
+    },
+    {
+      "id": "ORD-1019",
+      "requestId": "REQ-5019",
+      "buyerId": "BUY-1002",
+      "supplierId": "SUP-2004",
+      "productId": "PRD-3012",
+      "productName": "Mini Tractor 50 HP",
+      "category": "Agricultural Machinery",
+      "unit": "Piece",
+      "quantity": 1,
+      "deliveryLocation": "Multan Road, Khanewal",
+      "requirements": "",
+      "status": "Rejected",
+      "quotationId": null,
+      "unitPrice": null,
+      "totalPrice": null,
+      "deliveryInfo": null,
+      "inventoryReserved": false,
+      "statusHistory": [
+        {
+          "status": "Pending",
+          "at": "2026-10-10T09:00:00.000Z",
+          "note": "Purchase request submitted"
+        },
+        {
+          "status": "Rejected",
+          "at": "2026-10-10T23:00:00.000Z",
+          "note": ""
+        }
+      ],
+      "createdAt": "2026-10-10T09:00:00.000Z",
+      "updatedAt": "2026-10-10T23:00:00.000Z"
+    },
+    {
+      "id": "ORD-1020",
+      "requestId": "REQ-5020",
+      "buyerId": "BUY-1008",
+      "supplierId": "SUP-2007",
+      "productId": "PRD-3027",
+      "productName": "Onions (Red)",
+      "category": "Fruits & Vegetables",
+      "unit": "Ton",
+      "quantity": 15,
+      "deliveryLocation": "Gujranwala, GT Road",
+      "requirements": "",
+      "status": "Cancelled",
+      "quotationId": null,
+      "unitPrice": null,
+      "totalPrice": null,
+      "deliveryInfo": null,
+      "inventoryReserved": false,
+      "statusHistory": [
+        {
+          "status": "Pending",
+          "at": "2026-09-30T09:00:00.000Z",
+          "note": "Purchase request submitted"
+        },
+        {
+          "status": "Cancelled",
+          "at": "2026-09-30T23:00:00.000Z",
+          "note": ""
+        }
+      ],
+      "createdAt": "2026-09-30T09:00:00.000Z",
+      "updatedAt": "2026-09-30T23:00:00.000Z"
+    }
+  ],
+  "purchaseRequests": [
+    {
+      "id": "REQ-5001",
+      "orderId": "ORD-1001",
+      "buyerId": "BUY-1001",
+      "supplierId": "SUP-2001",
+      "productId": "PRD-3001",
+      "productName": "Hybrid Maize Seed (8 kg pack)",
+      "unit": "Bag",
+      "quantity": 40,
+      "deliveryLocation": "Lahore Cantt",
+      "requirements": "Sealed original packs only.",
+      "status": "Completed",
+      "createdAt": "2026-06-12T09:00:00.000Z",
+      "updatedAt": "2026-06-15T21:00:00.000Z"
+    },
+    {
+      "id": "REQ-5002",
+      "orderId": "ORD-1002",
+      "buyerId": "BUY-1001",
+      "supplierId": "SUP-2001",
+      "productId": "PRD-3003",
+      "productName": "Super Kernel Basmati Rice Seed",
+      "unit": "Bag",
+      "quantity": 25,
+      "deliveryLocation": "Lahore Cantt",
+      "requirements": "",
+      "status": "Completed",
+      "createdAt": "2026-07-12T09:00:00.000Z",
+      "updatedAt": "2026-07-15T21:00:00.000Z"
+    },
+    {
+      "id": "REQ-5003",
+      "orderId": "ORD-1003",
+      "buyerId": "BUY-1002",
+      "supplierId": "SUP-2002",
+      "productId": "PRD-3005",
+      "productName": "Urea Fertilizer (50 kg)",
+      "unit": "Bag",
+      "quantity": 200,
+      "deliveryLocation": "Multan Road, Khanewal",
+      "requirements": "Delivery before sowing season.",
+      "status": "Completed",
+      "createdAt": "2026-07-22T09:00:00.000Z",
+      "updatedAt": "2026-07-25T21:00:00.000Z"
+    },
+    {
+      "id": "REQ-5004",
+      "orderId": "ORD-1004",
+      "buyerId": "BUY-1003",
+      "supplierId": "SUP-2008",
+      "productId": "PRD-3028",
+      "productName": "Poultry Layer Feed (50 kg)",
+      "unit": "Bag",
+      "quantity": 150,
+      "deliveryLocation": "Faisalabad Industrial Estate",
+      "requirements": "",
+      "status": "Completed",
+      "createdAt": "2026-08-06T09:00:00.000Z",
+      "updatedAt": "2026-08-09T21:00:00.000Z"
+    },
+    {
+      "id": "REQ-5005",
+      "orderId": "ORD-1005",
+      "buyerId": "BUY-1001",
+      "supplierId": "SUP-2001",
+      "productId": "PRD-3002",
+      "productName": "Wheat Seed Faisalabad-2008",
+      "unit": "Bag",
+      "quantity": 60,
+      "deliveryLocation": "Lahore Cantt",
+      "requirements": "Treated seed preferred.",
+      "status": "Delivered",
+      "createdAt": "2026-10-20T09:00:00.000Z",
+      "updatedAt": "2026-10-23T07:00:00.000Z"
+    },
+    {
+      "id": "REQ-5006",
+      "orderId": "ORD-1006",
+      "buyerId": "BUY-1004",
+      "supplierId": "SUP-2008",
+      "productId": "PRD-3029",
+      "productName": "Dairy Cattle Concentrate (50 kg)",
+      "unit": "Bag",
+      "quantity": 80,
+      "deliveryLocation": "Sahiwal City",
+      "requirements": "",
+      "status": "Dispatched",
+      "createdAt": "2026-10-26T09:00:00.000Z",
+      "updatedAt": "2026-10-28T17:00:00.000Z"
+    },
+    {
+      "id": "REQ-5007",
+      "orderId": "ORD-1007",
+      "buyerId": "BUY-1005",
+      "supplierId": "SUP-2005",
+      "productId": "PRD-3016",
+      "productName": "Drip Irrigation Kit (1 acre)",
+      "unit": "Piece",
+      "quantity": 4,
+      "deliveryLocation": "Islamabad, Sector I-9",
+      "requirements": "Include installation guide.",
+      "status": "Dispatched",
+      "createdAt": "2026-10-28T09:00:00.000Z",
+      "updatedAt": "2026-10-30T17:00:00.000Z"
+    },
+    {
+      "id": "REQ-5008",
+      "orderId": "ORD-1008",
+      "buyerId": "BUY-1002",
+      "supplierId": "SUP-2002",
+      "productId": "PRD-3006",
+      "productName": "DAP Fertilizer (50 kg)",
+      "unit": "Bag",
+      "quantity": 120,
+      "deliveryLocation": "Multan Road, Khanewal",
+      "requirements": "",
+      "status": "Processing",
+      "createdAt": "2026-10-31T09:00:00.000Z",
+      "updatedAt": "2026-11-02T03:00:00.000Z"
+    },
+    {
+      "id": "REQ-5009",
+      "orderId": "ORD-1009",
+      "buyerId": "BUY-1001",
+      "supplierId": "SUP-2001",
+      "productId": "PRD-3001",
+      "productName": "Hybrid Maize Seed (8 kg pack)",
+      "unit": "Bag",
+      "quantity": 30,
+      "deliveryLocation": "Lahore Cantt",
+      "requirements": "Split delivery in two lots.",
+      "status": "Processing",
+      "createdAt": "2026-11-01T09:00:00.000Z",
+      "updatedAt": "2026-11-03T03:00:00.000Z"
+    },
+    {
+      "id": "REQ-5010",
+      "orderId": "ORD-1010",
+      "buyerId": "BUY-1006",
+      "supplierId": "SUP-2007",
+      "productId": "PRD-3024",
+      "productName": "Chaunsa Mangoes (Grade A)",
+      "unit": "KG",
+      "quantity": 800,
+      "deliveryLocation": "Rawalpindi Fruit Market",
+      "requirements": "Crate packing, 10 kg each.",
+      "status": "Processing",
+      "createdAt": "2026-11-02T09:00:00.000Z",
+      "updatedAt": "2026-11-04T03:00:00.000Z"
+    },
+    {
+      "id": "REQ-5011",
+      "orderId": "ORD-1011",
+      "buyerId": "BUY-1007",
+      "supplierId": "SUP-2006",
+      "productId": "PRD-3020",
+      "productName": "Wheat Grain (milling quality)",
+      "unit": "Ton",
+      "quantity": 25,
+      "deliveryLocation": "Bahawalpur Grain Market",
+      "requirements": "",
+      "status": "Accepted",
+      "createdAt": "2026-11-03T09:00:00.000Z",
+      "updatedAt": "2026-11-04T13:00:00.000Z"
+    },
+    {
+      "id": "REQ-5012",
+      "orderId": "ORD-1012",
+      "buyerId": "BUY-1008",
+      "supplierId": "SUP-2003",
+      "productId": "PRD-3009",
+      "productName": "Imidacloprid 200SL Insecticide",
+      "unit": "Liter",
+      "quantity": 60,
+      "deliveryLocation": "Gujranwala, GT Road",
+      "requirements": "",
+      "status": "Accepted",
+      "createdAt": "2026-11-04T09:00:00.000Z",
+      "updatedAt": "2026-11-05T13:00:00.000Z"
+    },
+    {
+      "id": "REQ-5013",
+      "orderId": "ORD-1013",
+      "buyerId": "BUY-1001",
+      "supplierId": "SUP-2001",
+      "productId": "PRD-3003",
+      "productName": "Super Kernel Basmati Rice Seed",
+      "unit": "Bag",
+      "quantity": 15,
+      "deliveryLocation": "Lahore Cantt",
+      "requirements": "Need certificate of purity.",
+      "status": "Quotation Submitted",
+      "createdAt": "2026-11-05T09:00:00.000Z",
+      "updatedAt": "2026-11-05T23:00:00.000Z"
+    },
+    {
+      "id": "REQ-5014",
+      "orderId": "ORD-1014",
+      "buyerId": "BUY-1003",
+      "supplierId": "SUP-2008",
+      "productId": "PRD-3030",
+      "productName": "Cottonseed Cake (50 kg)",
+      "unit": "Bag",
+      "quantity": 100,
+      "deliveryLocation": "Faisalabad Industrial Estate",
+      "requirements": "",
+      "status": "Quotation Submitted",
+      "createdAt": "2026-11-06T09:00:00.000Z",
+      "updatedAt": "2026-11-06T23:00:00.000Z"
+    },
+    {
+      "id": "REQ-5015",
+      "orderId": "ORD-1015",
+      "buyerId": "BUY-1005",
+      "supplierId": "SUP-2004",
+      "productId": "PRD-3013",
+      "productName": "Rotavator 7 ft",
+      "unit": "Piece",
+      "quantity": 2,
+      "deliveryLocation": "Islamabad, Sector I-9",
+      "requirements": "",
+      "status": "Quotation Submitted",
+      "createdAt": "2026-11-06T09:00:00.000Z",
+      "updatedAt": "2026-11-06T23:00:00.000Z"
+    },
+    {
+      "id": "REQ-5016",
+      "orderId": "ORD-1016",
+      "buyerId": "BUY-1001",
+      "supplierId": "SUP-2001",
+      "productId": "PRD-3002",
+      "productName": "Wheat Seed Faisalabad-2008",
+      "unit": "Bag",
+      "quantity": 50,
+      "deliveryLocation": "Lahore Cantt",
+      "requirements": "Please quote for bulk rate.",
+      "status": "Pending",
+      "createdAt": "2026-11-07T09:00:00.000Z",
+      "updatedAt": "2026-11-07T09:00:00.000Z"
+    },
+    {
+      "id": "REQ-5017",
+      "orderId": "ORD-1017",
+      "buyerId": "BUY-1004",
+      "supplierId": "SUP-2010",
+      "productId": "PRD-3010",
+      "productName": "Glyphosate 41% Herbicide",
+      "unit": "Liter",
+      "quantity": 40,
+      "deliveryLocation": "Sahiwal City",
+      "requirements": "",
+      "status": "Pending",
+      "createdAt": "2026-11-08T09:00:00.000Z",
+      "updatedAt": "2026-11-08T09:00:00.000Z"
+    },
+    {
+      "id": "REQ-5018",
+      "orderId": "ORD-1018",
+      "buyerId": "BUY-1006",
+      "supplierId": "SUP-2007",
+      "productId": "PRD-3026",
+      "productName": "Potatoes (Table Grade)",
+      "unit": "Ton",
+      "quantity": 10,
+      "deliveryLocation": "Rawalpindi Fruit Market",
+      "requirements": "Washed potatoes only.",
+      "status": "Pending",
+      "createdAt": "2026-11-08T09:00:00.000Z",
+      "updatedAt": "2026-11-08T09:00:00.000Z"
+    },
+    {
+      "id": "REQ-5019",
+      "orderId": "ORD-1019",
+      "buyerId": "BUY-1002",
+      "supplierId": "SUP-2004",
+      "productId": "PRD-3012",
+      "productName": "Mini Tractor 50 HP",
+      "unit": "Piece",
+      "quantity": 1,
+      "deliveryLocation": "Multan Road, Khanewal",
+      "requirements": "",
+      "status": "Rejected",
+      "createdAt": "2026-10-10T09:00:00.000Z",
+      "updatedAt": "2026-10-10T23:00:00.000Z"
+    },
+    {
+      "id": "REQ-5020",
+      "orderId": "ORD-1020",
+      "buyerId": "BUY-1008",
+      "supplierId": "SUP-2007",
+      "productId": "PRD-3027",
+      "productName": "Onions (Red)",
+      "unit": "Ton",
+      "quantity": 15,
+      "deliveryLocation": "Gujranwala, GT Road",
+      "requirements": "",
+      "status": "Cancelled",
+      "createdAt": "2026-09-30T09:00:00.000Z",
+      "updatedAt": "2026-09-30T23:00:00.000Z"
+    }
+  ],
+  "quotations": [
+    {
+      "id": "QUO-6001",
+      "orderId": "ORD-1001",
+      "buyerId": "BUY-1001",
+      "supplierId": "SUP-2001",
+      "unitPrice": 13920,
+      "totalPrice": 556800,
+      "deliveryDays": 3,
+      "validUntil": "2026-06-26",
+      "notes": "Price includes loading. Transport to delivery location extra if outside Punjab.",
+      "status": "Accepted",
+      "createdAt": "2026-06-12T23:00:00.000Z"
+    },
+    {
+      "id": "QUO-6002",
+      "orderId": "ORD-1002",
+      "buyerId": "BUY-1001",
+      "supplierId": "SUP-2001",
+      "unitPrice": 9506,
+      "totalPrice": 237650,
+      "deliveryDays": 4,
+      "validUntil": "2026-07-26",
+      "notes": "Stock reserved for 7 days once accepted.",
+      "status": "Accepted",
+      "createdAt": "2026-07-12T23:00:00.000Z"
+    },
+    {
+      "id": "QUO-6003",
+      "orderId": "ORD-1003",
+      "buyerId": "BUY-1002",
+      "supplierId": "SUP-2002",
+      "unitPrice": 4557,
+      "totalPrice": 911400,
+      "deliveryDays": 5,
+      "validUntil": "2026-08-05",
+      "notes": "Stock reserved for 7 days once accepted.",
+      "status": "Accepted",
+      "createdAt": "2026-07-22T23:00:00.000Z"
+    },
+    {
+      "id": "QUO-6004",
+      "orderId": "ORD-1004",
+      "buyerId": "BUY-1003",
+      "supplierId": "SUP-2008",
+      "unitPrice": 5544,
+      "totalPrice": 831600,
+      "deliveryDays": 6,
+      "validUntil": "2026-08-20",
+      "notes": "Price includes loading. Transport to delivery location extra if outside Punjab.",
+      "status": "Accepted",
+      "createdAt": "2026-08-06T23:00:00.000Z"
+    },
+    {
+      "id": "QUO-6005",
+      "orderId": "ORD-1005",
+      "buyerId": "BUY-1001",
+      "supplierId": "SUP-2001",
+      "unitPrice": 5952,
+      "totalPrice": 357120,
+      "deliveryDays": 7,
+      "validUntil": "2026-11-03",
+      "notes": "Stock reserved for 7 days once accepted.",
+      "status": "Accepted",
+      "createdAt": "2026-10-20T23:00:00.000Z"
+    },
+    {
+      "id": "QUO-6006",
+      "orderId": "ORD-1006",
+      "buyerId": "BUY-1004",
+      "supplierId": "SUP-2008",
+      "unitPrice": 4171,
+      "totalPrice": 333680,
+      "deliveryDays": 8,
+      "validUntil": "2026-11-09",
+      "notes": "Stock reserved for 7 days once accepted.",
+      "status": "Accepted",
+      "createdAt": "2026-10-26T23:00:00.000Z"
+    },
+    {
+      "id": "QUO-6007",
+      "orderId": "ORD-1007",
+      "buyerId": "BUY-1005",
+      "supplierId": "SUP-2005",
+      "unitPrice": 76440,
+      "totalPrice": 305760,
+      "deliveryDays": 3,
+      "validUntil": "2026-11-11",
+      "notes": "Price includes loading. Transport to delivery location extra if outside Punjab.",
+      "status": "Accepted",
+      "createdAt": "2026-10-28T23:00:00.000Z"
+    },
+    {
+      "id": "QUO-6008",
+      "orderId": "ORD-1008",
+      "buyerId": "BUY-1002",
+      "supplierId": "SUP-2002",
+      "unitPrice": 12276,
+      "totalPrice": 1473120,
+      "deliveryDays": 4,
+      "validUntil": "2026-11-14",
+      "notes": "Stock reserved for 7 days once accepted.",
+      "status": "Accepted",
+      "createdAt": "2026-10-31T23:00:00.000Z"
+    },
+    {
+      "id": "QUO-6009",
+      "orderId": "ORD-1009",
+      "buyerId": "BUY-1001",
+      "supplierId": "SUP-2001",
+      "unitPrice": 13920,
+      "totalPrice": 417600,
+      "deliveryDays": 5,
+      "validUntil": "2026-11-15",
+      "notes": "Stock reserved for 7 days once accepted.",
+      "status": "Accepted",
+      "createdAt": "2026-11-01T23:00:00.000Z"
+    },
+    {
+      "id": "QUO-6010",
+      "orderId": "ORD-1010",
+      "buyerId": "BUY-1006",
+      "supplierId": "SUP-2007",
+      "unitPrice": 310,
+      "totalPrice": 248000,
+      "deliveryDays": 6,
+      "validUntil": "2026-11-16",
+      "notes": "Price includes loading. Transport to delivery location extra if outside Punjab.",
+      "status": "Accepted",
+      "createdAt": "2026-11-02T23:00:00.000Z"
+    },
+    {
+      "id": "QUO-6011",
+      "orderId": "ORD-1011",
+      "buyerId": "BUY-1007",
+      "supplierId": "SUP-2006",
+      "unitPrice": 115640,
+      "totalPrice": 2891000,
+      "deliveryDays": 7,
+      "validUntil": "2026-11-17",
+      "notes": "Stock reserved for 7 days once accepted.",
+      "status": "Accepted",
+      "createdAt": "2026-11-03T23:00:00.000Z"
+    },
+    {
+      "id": "QUO-6012",
+      "orderId": "ORD-1012",
+      "buyerId": "BUY-1008",
+      "supplierId": "SUP-2003",
+      "unitPrice": 3168,
+      "totalPrice": 190080,
+      "deliveryDays": 8,
+      "validUntil": "2026-11-18",
+      "notes": "Stock reserved for 7 days once accepted.",
+      "status": "Accepted",
+      "createdAt": "2026-11-04T23:00:00.000Z"
+    },
+    {
+      "id": "QUO-6013",
+      "orderId": "ORD-1013",
+      "buyerId": "BUY-1001",
+      "supplierId": "SUP-2001",
+      "unitPrice": 9408,
+      "totalPrice": 141120,
+      "deliveryDays": 3,
+      "validUntil": "2026-12-15",
+      "notes": "Price includes loading. Transport to delivery location extra if outside Punjab.",
+      "status": "Submitted",
+      "createdAt": "2026-11-05T23:00:00.000Z"
+    },
+    {
+      "id": "QUO-6014",
+      "orderId": "ORD-1014",
+      "buyerId": "BUY-1003",
+      "supplierId": "SUP-2008",
+      "unitPrice": 3783,
+      "totalPrice": 378300,
+      "deliveryDays": 4,
+      "validUntil": "2026-12-15",
+      "notes": "Stock reserved for 7 days once accepted.",
+      "status": "Submitted",
+      "createdAt": "2026-11-06T23:00:00.000Z"
+    },
+    {
+      "id": "QUO-6015",
+      "orderId": "ORD-1015",
+      "buyerId": "BUY-1005",
+      "supplierId": "SUP-2004",
+      "unitPrice": 279300,
+      "totalPrice": 558600,
+      "deliveryDays": 5,
+      "validUntil": "2026-12-15",
+      "notes": "Stock reserved for 7 days once accepted.",
+      "status": "Submitted",
+      "createdAt": "2026-11-06T23:00:00.000Z"
+    }
+  ],
+  "messages": [
+    {
+      "id": "MSG-7001",
+      "orderId": "ORD-1001",
+      "senderRef": "BUY-1001",
+      "senderRole": "buyer",
+      "body": "Is the maize seed from this season's lot?",
+      "createdAt": "2026-10-10T09:00:00.000Z",
+      "readBy": [
+        "BUY-1001",
+        "SUP-2001"
+      ]
+    },
+    {
+      "id": "MSG-7002",
+      "orderId": "ORD-1001",
+      "senderRef": "SUP-2001",
+      "senderRole": "supplier",
+      "body": "Yes, packed this season. Batch certificate is available at delivery.",
+      "createdAt": "2026-10-11T10:00:00.000Z",
+      "readBy": [
+        "BUY-1001",
+        "SUP-2001"
+      ]
+    },
+    {
+      "id": "MSG-7003",
+      "orderId": "ORD-1001",
+      "senderRef": "BUY-1001",
+      "senderRole": "buyer",
+      "body": "Good, please proceed with the order.",
+      "createdAt": "2026-10-12T11:00:00.000Z",
+      "readBy": [
+        "BUY-1001",
+        "SUP-2001"
+      ]
+    },
+    {
+      "id": "MSG-7004",
+      "orderId": "ORD-1005",
+      "senderRef": "BUY-1001",
+      "senderRole": "buyer",
+      "body": "Can you confirm the expected delivery date for the wheat seed?",
+      "createdAt": "2026-10-13T12:00:00.000Z",
+      "readBy": [
+        "BUY-1001",
+        "SUP-2001"
+      ]
+    },
+    {
+      "id": "MSG-7005",
+      "orderId": "ORD-1005",
+      "senderRef": "SUP-2001",
+      "senderRole": "supplier",
+      "body": "It was dispatched yesterday and should arrive within two days.",
+      "createdAt": "2026-10-14T13:00:00.000Z",
+      "readBy": [
+        "BUY-1001",
+        "SUP-2001"
+      ]
+    },
+    {
+      "id": "MSG-7006",
+      "orderId": "ORD-1005",
+      "senderRef": "BUY-1001",
+      "senderRole": "buyer",
+      "body": "Thank you. We will confirm once received.",
+      "createdAt": "2026-10-15T14:00:00.000Z",
+      "readBy": [
+        "BUY-1001",
+        "SUP-2001"
+      ]
+    },
+    {
+      "id": "MSG-7007",
+      "orderId": "ORD-1006",
+      "senderRef": "SUP-2008",
+      "senderRole": "supplier",
+      "body": "Your dairy concentrate order is on the truck.",
+      "createdAt": "2026-10-16T15:00:00.000Z",
+      "readBy": [
+        "BUY-1004",
+        "SUP-2008"
+      ]
+    },
+    {
+      "id": "MSG-7008",
+      "orderId": "ORD-1006",
+      "senderRef": "BUY-1004",
+      "senderRole": "buyer",
+      "body": "Understood. Please make sure the bags are sealed.",
+      "createdAt": "2026-10-17T16:00:00.000Z",
+      "readBy": [
+        "BUY-1004",
+        "SUP-2008"
+      ]
+    },
+    {
+      "id": "MSG-7009",
+      "orderId": "ORD-1008",
+      "senderRef": "BUY-1002",
+      "senderRole": "buyer",
+      "body": "Can the DAP be delivered in two lots?",
+      "createdAt": "2026-10-18T17:00:00.000Z",
+      "readBy": [
+        "BUY-1002",
+        "SUP-2002"
+      ]
+    },
+    {
+      "id": "MSG-7010",
+      "orderId": "ORD-1008",
+      "senderRef": "SUP-2002",
+      "senderRole": "supplier",
+      "body": "Yes, we can split it into 60 and 60 bags.",
+      "createdAt": "2026-10-19T18:00:00.000Z",
+      "readBy": [
+        "BUY-1002",
+        "SUP-2002"
+      ]
+    },
+    {
+      "id": "MSG-7011",
+      "orderId": "ORD-1009",
+      "senderRef": "BUY-1001",
+      "senderRole": "buyer",
+      "body": "Please use the second lot for the field near the canal.",
+      "createdAt": "2026-10-20T19:00:00.000Z",
+      "readBy": [
+        "BUY-1001",
+        "SUP-2001"
+      ]
+    },
+    {
+      "id": "MSG-7012",
+      "orderId": "ORD-1009",
+      "senderRef": "SUP-2001",
+      "senderRole": "supplier",
+      "body": "Noted, we will mention it in the delivery note.",
+      "createdAt": "2026-10-21T20:00:00.000Z",
+      "readBy": [
+        "BUY-1001",
+        "SUP-2001"
+      ]
+    },
+    {
+      "id": "MSG-7013",
+      "orderId": "ORD-1010",
+      "senderRef": "SUP-2007",
+      "senderRole": "supplier",
+      "body": "Mangoes are being graded today. Crates will be packed tomorrow.",
+      "createdAt": "2026-10-22T21:00:00.000Z",
+      "readBy": [
+        "BUY-1006",
+        "SUP-2007"
+      ]
+    },
+    {
+      "id": "MSG-7014",
+      "orderId": "ORD-1010",
+      "senderRef": "BUY-1006",
+      "senderRole": "buyer",
+      "body": "Great, we need them before Friday.",
+      "createdAt": "2026-10-23T22:00:00.000Z",
+      "readBy": [
+        "BUY-1006",
+        "SUP-2007"
+      ]
+    },
+    {
+      "id": "MSG-7015",
+      "orderId": "ORD-1013",
+      "senderRef": "BUY-1001",
+      "senderRole": "buyer",
+      "body": "Could you include a purity certificate with the quotation?",
+      "createdAt": "2026-10-24T23:00:00.000Z",
+      "readBy": [
+        "BUY-1001"
+      ]
+    },
+    {
+      "id": "MSG-7016",
+      "orderId": "ORD-1013",
+      "senderRef": "SUP-2001",
+      "senderRole": "supplier",
+      "body": "Yes, it will be included with the delivery.",
+      "createdAt": "2026-10-26T00:00:00.000Z",
+      "readBy": [
+        "SUP-2001"
+      ]
+    },
+    {
+      "id": "MSG-7017",
+      "orderId": "ORD-1013",
+      "senderRef": "BUY-1001",
+      "senderRole": "buyer",
+      "body": "Please keep the quotation valid until next week.",
+      "createdAt": "2026-10-27T01:00:00.000Z",
+      "readBy": [
+        "BUY-1001"
+      ]
+    },
+    {
+      "id": "MSG-7018",
+      "orderId": "ORD-1014",
+      "senderRef": "BUY-1003",
+      "senderRole": "buyer",
+      "body": "Is a bulk discount possible for 100 bags?",
+      "createdAt": "2026-10-28T02:00:00.000Z",
+      "readBy": [
+        "BUY-1003"
+      ]
+    },
+    {
+      "id": "MSG-7019",
+      "orderId": "ORD-1014",
+      "senderRef": "SUP-2008",
+      "senderRole": "supplier",
+      "body": "The quoted rate already includes a bulk discount.",
+      "createdAt": "2026-10-29T03:00:00.000Z",
+      "readBy": [
+        "SUP-2008"
+      ]
+    },
+    {
+      "id": "MSG-7020",
+      "orderId": "ORD-1015",
+      "senderRef": "BUY-1005",
+      "senderRole": "buyer",
+      "body": "What is the warranty on the rotavator?",
+      "createdAt": "2026-10-30T04:00:00.000Z",
+      "readBy": [
+        "BUY-1005"
+      ]
+    }
+  ],
+  "notifications": [
+    {
+      "id": "NTF-8001",
+      "userId": "USR-0001",
+      "type": "new_order",
+      "title": "New purchase request",
+      "message": "ORD-1018 was submitted by BUY-1006 for SUP-2007.",
+      "orderId": "ORD-1018",
+      "read": false,
+      "createdAt": "2026-11-08T09:00:00.000Z"
+    },
+    {
+      "id": "NTF-8002",
+      "userId": "USR-0001",
+      "type": "new_order",
+      "title": "New purchase request",
+      "message": "ORD-1017 was submitted by BUY-1004 for SUP-2010.",
+      "orderId": "ORD-1017",
+      "read": false,
+      "createdAt": "2026-11-08T10:00:00.000Z"
+    },
+    {
+      "id": "NTF-8003",
+      "userId": "USR-0001",
+      "type": "order_status",
+      "title": "Order status updated",
+      "message": "Order ORD-1011 is now \"Accepted\".",
+      "orderId": "ORD-1011",
+      "read": true,
+      "createdAt": "2026-11-03T11:00:00.000Z"
+    },
+    {
+      "id": "NTF-8004",
+      "userId": "USR-0001",
+      "type": "order_status",
+      "title": "Order status updated",
+      "message": "Order ORD-1004 is now \"Completed\".",
+      "orderId": "ORD-1004",
+      "read": true,
+      "createdAt": "2026-08-11T12:00:00.000Z"
+    },
+    {
+      "id": "NTF-8005",
+      "userId": "USR-0001",
+      "type": "low_stock",
+      "title": "Low inventory alert",
+      "message": "PRD-3012 (SUP-2004) has 2 Piece left.",
+      "orderId": null,
+      "read": false,
+      "createdAt": "2026-11-06T13:00:00.000Z"
+    },
+    {
+      "id": "NTF-8006",
+      "userId": "USR-BUY-1001",
+      "type": "quotation",
+      "title": "New quotation received",
+      "message": "SUP-2001 submitted a quotation for ORD-1013: PKR 138,600.",
+      "orderId": "ORD-1013",
+      "read": true,
+      "createdAt": "2026-11-05T14:00:00.000Z"
+    },
+    {
+      "id": "NTF-8007",
+      "userId": "USR-BUY-1001",
+      "type": "order_status",
+      "title": "Order status updated",
+      "message": "Order ORD-1005 is now \"Delivered\".",
+      "orderId": "ORD-1005",
+      "read": false,
+      "createdAt": "2026-11-07T15:00:00.000Z"
+    },
+    {
+      "id": "NTF-8008",
+      "userId": "USR-BUY-1001",
+      "type": "order_status",
+      "title": "Order status updated",
+      "message": "Order ORD-1009 is now \"Processing\".",
+      "orderId": "ORD-1009",
+      "read": false,
+      "createdAt": "2026-11-02T16:00:00.000Z"
+    },
+    {
+      "id": "NTF-8009",
+      "userId": "USR-BUY-1001",
+      "type": "message",
+      "title": "New message",
+      "message": "SUP-2001 sent a message about ORD-1013.",
+      "orderId": "ORD-1013",
+      "read": true,
+      "createdAt": "2026-11-06T17:00:00.000Z"
+    },
+    {
+      "id": "NTF-8010",
+      "userId": "USR-BUY-1001",
+      "type": "order_status",
+      "title": "Order status updated",
+      "message": "Order ORD-1002 is now \"Completed\".",
+      "orderId": "ORD-1002",
+      "read": true,
+      "createdAt": "2026-07-22T18:00:00.000Z"
+    },
+    {
+      "id": "NTF-8011",
+      "userId": "USR-BUY-1001",
+      "type": "order_status",
+      "title": "Order status updated",
+      "message": "Order ORD-1001 is now \"Completed\".",
+      "orderId": "ORD-1001",
+      "read": true,
+      "createdAt": "2026-06-22T19:00:00.000Z"
+    },
+    {
+      "id": "NTF-8012",
+      "userId": "USR-SUP-2001",
+      "type": "new_order",
+      "title": "New purchase request",
+      "message": "BUY-1001 requested 50 Bag of Wheat Seed Faisalabad-2008. Order ORD-1016.",
+      "orderId": "ORD-1016",
+      "read": true,
+      "createdAt": "2026-11-07T20:00:00.000Z"
+    },
+    {
+      "id": "NTF-8013",
+      "userId": "USR-SUP-2001",
+      "type": "low_stock",
+      "title": "Low inventory alert",
+      "message": "Super Kernel Basmati Rice Seed (PRD-3003) has 90 Bag left. Threshold: 100.",
+      "orderId": null,
+      "read": false,
+      "createdAt": "2026-11-04T21:00:00.000Z"
+    },
+    {
+      "id": "NTF-8014",
+      "userId": "USR-SUP-2001",
+      "type": "quotation",
+      "title": "Quotation accepted",
+      "message": "BUY-1001 accepted the quotation for ORD-1009. You can start processing.",
+      "orderId": "ORD-1009",
+      "read": false,
+      "createdAt": "2026-11-01T22:00:00.000Z"
+    },
+    {
+      "id": "NTF-8015",
+      "userId": "USR-SUP-2001",
+      "type": "message",
+      "title": "New message",
+      "message": "BUY-1001 sent a message about ORD-1013.",
+      "orderId": "ORD-1013",
+      "read": true,
+      "createdAt": "2026-11-06T23:00:00.000Z"
+    },
+    {
+      "id": "NTF-8016",
+      "userId": "USR-SUP-2001",
+      "type": "order_status",
+      "title": "Order status updated",
+      "message": "Order ORD-1005 is now \"Delivered\". Waiting for the buyer to confirm.",
+      "orderId": "ORD-1005",
+      "read": false,
+      "createdAt": "2026-11-08T00:00:00.000Z"
+    },
+    {
+      "id": "NTF-8017",
+      "userId": "USR-SUP-2001",
+      "type": "new_order",
+      "title": "New purchase request",
+      "message": "BUY-1001 requested 15 Bag of Super Kernel Basmati Rice Seed. Order ORD-1013.",
+      "orderId": "ORD-1013",
+      "read": false,
+      "createdAt": "2026-11-06T01:00:00.000Z"
+    },
+    {
+      "id": "NTF-8018",
+      "userId": "USR-BUY-1002",
+      "type": "order_status",
+      "title": "Order status updated",
+      "message": "Order ORD-1008 is now \"Processing\".",
+      "orderId": "ORD-1008",
+      "read": true,
+      "createdAt": "2026-11-01T02:00:00.000Z"
+    },
+    {
+      "id": "NTF-8019",
+      "userId": "USR-SUP-2002",
+      "type": "new_order",
+      "title": "New purchase request",
+      "message": "BUY-1002 requested 120 Bag of DAP Fertilizer (50 kg). Order ORD-1008.",
+      "orderId": "ORD-1008",
+      "read": false,
+      "createdAt": "2026-10-27T03:00:00.000Z"
+    },
+    {
+      "id": "NTF-8020",
+      "userId": "USR-SUP-2006",
+      "type": "order_status",
+      "title": "Order status updated",
+      "message": "Order ORD-1011 is now \"Accepted\".",
+      "orderId": "ORD-1011",
+      "read": false,
+      "createdAt": "2026-11-04T04:00:00.000Z"
+    }
+  ],
+  "activities": [
+    {
+      "id": "ACT-9001",
+      "actorRole": "buyer",
+      "actorRef": "BUY-1001",
+      "action": "order.create",
+      "entityRef": "ORD-1001",
+      "message": "BUY-1001 submitted purchase request REQ-5001 (ORD-1001)",
+      "parties": [
+        "BUY-1001",
+        "SUP-2001"
+      ],
+      "createdAt": "2026-06-12T09:00:00.000Z"
+    },
+    {
+      "id": "ACT-9002",
+      "actorRole": "supplier",
+      "actorRef": "SUP-2001",
+      "action": "order.status",
+      "entityRef": "ORD-1001",
+      "message": "SUP-2001 submitted a quotation for ORD-1001",
+      "parties": [
+        "BUY-1001",
+        "SUP-2001"
+      ],
+      "createdAt": "2026-06-12T23:00:00.000Z"
+    },
+    {
+      "id": "ACT-9003",
+      "actorRole": "buyer",
+      "actorRef": "BUY-1001",
+      "action": "order.status",
+      "entityRef": "ORD-1001",
+      "message": "Order ORD-1001 moved to Completed",
+      "parties": [
+        "BUY-1001",
+        "SUP-2001"
+      ],
+      "createdAt": "2026-06-15T21:00:00.000Z"
+    },
+    {
+      "id": "ACT-9004",
+      "actorRole": "buyer",
+      "actorRef": "BUY-1001",
+      "action": "order.create",
+      "entityRef": "ORD-1002",
+      "message": "BUY-1001 submitted purchase request REQ-5002 (ORD-1002)",
+      "parties": [
+        "BUY-1001",
+        "SUP-2001"
+      ],
+      "createdAt": "2026-07-12T09:00:00.000Z"
+    },
+    {
+      "id": "ACT-9005",
+      "actorRole": "supplier",
+      "actorRef": "SUP-2001",
+      "action": "order.status",
+      "entityRef": "ORD-1002",
+      "message": "SUP-2001 submitted a quotation for ORD-1002",
+      "parties": [
+        "BUY-1001",
+        "SUP-2001"
+      ],
+      "createdAt": "2026-07-12T23:00:00.000Z"
+    },
+    {
+      "id": "ACT-9006",
+      "actorRole": "buyer",
+      "actorRef": "BUY-1001",
+      "action": "order.status",
+      "entityRef": "ORD-1002",
+      "message": "Order ORD-1002 moved to Completed",
+      "parties": [
+        "BUY-1001",
+        "SUP-2001"
+      ],
+      "createdAt": "2026-07-15T21:00:00.000Z"
+    },
+    {
+      "id": "ACT-9007",
+      "actorRole": "buyer",
+      "actorRef": "BUY-1002",
+      "action": "order.create",
+      "entityRef": "ORD-1003",
+      "message": "BUY-1002 submitted purchase request REQ-5003 (ORD-1003)",
+      "parties": [
+        "BUY-1002",
+        "SUP-2002"
+      ],
+      "createdAt": "2026-07-22T09:00:00.000Z"
+    },
+    {
+      "id": "ACT-9008",
+      "actorRole": "supplier",
+      "actorRef": "SUP-2002",
+      "action": "order.status",
+      "entityRef": "ORD-1003",
+      "message": "SUP-2002 submitted a quotation for ORD-1003",
+      "parties": [
+        "BUY-1002",
+        "SUP-2002"
+      ],
+      "createdAt": "2026-07-22T23:00:00.000Z"
+    },
+    {
+      "id": "ACT-9009",
+      "actorRole": "buyer",
+      "actorRef": "BUY-1002",
+      "action": "order.status",
+      "entityRef": "ORD-1003",
+      "message": "Order ORD-1003 moved to Completed",
+      "parties": [
+        "BUY-1002",
+        "SUP-2002"
+      ],
+      "createdAt": "2026-07-25T21:00:00.000Z"
+    },
+    {
+      "id": "ACT-9010",
+      "actorRole": "buyer",
+      "actorRef": "BUY-1003",
+      "action": "order.create",
+      "entityRef": "ORD-1004",
+      "message": "BUY-1003 submitted purchase request REQ-5004 (ORD-1004)",
+      "parties": [
+        "BUY-1003",
+        "SUP-2008"
+      ],
+      "createdAt": "2026-08-06T09:00:00.000Z"
+    },
+    {
+      "id": "ACT-9011",
+      "actorRole": "supplier",
+      "actorRef": "SUP-2008",
+      "action": "order.status",
+      "entityRef": "ORD-1004",
+      "message": "SUP-2008 submitted a quotation for ORD-1004",
+      "parties": [
+        "BUY-1003",
+        "SUP-2008"
+      ],
+      "createdAt": "2026-08-06T23:00:00.000Z"
+    },
+    {
+      "id": "ACT-9012",
+      "actorRole": "buyer",
+      "actorRef": "BUY-1003",
+      "action": "order.status",
+      "entityRef": "ORD-1004",
+      "message": "Order ORD-1004 moved to Completed",
+      "parties": [
+        "BUY-1003",
+        "SUP-2008"
+      ],
+      "createdAt": "2026-08-09T21:00:00.000Z"
+    },
+    {
+      "id": "ACT-9013",
+      "actorRole": "buyer",
+      "actorRef": "BUY-1008",
+      "action": "order.create",
+      "entityRef": "ORD-1020",
+      "message": "BUY-1008 submitted purchase request REQ-5020 (ORD-1020)",
+      "parties": [
+        "BUY-1008",
+        "SUP-2007"
+      ],
+      "createdAt": "2026-09-30T09:00:00.000Z"
+    },
+    {
+      "id": "ACT-9014",
+      "actorRole": "buyer",
+      "actorRef": "BUY-1002",
+      "action": "order.create",
+      "entityRef": "ORD-1019",
+      "message": "BUY-1002 submitted purchase request REQ-5019 (ORD-1019)",
+      "parties": [
+        "BUY-1002",
+        "SUP-2004"
+      ],
+      "createdAt": "2026-10-10T09:00:00.000Z"
+    },
+    {
+      "id": "ACT-9015",
+      "actorRole": "buyer",
+      "actorRef": "BUY-1001",
+      "action": "order.create",
+      "entityRef": "ORD-1005",
+      "message": "BUY-1001 submitted purchase request REQ-5005 (ORD-1005)",
+      "parties": [
+        "BUY-1001",
+        "SUP-2001"
+      ],
+      "createdAt": "2026-10-20T09:00:00.000Z"
+    },
+    {
+      "id": "ACT-9016",
+      "actorRole": "supplier",
+      "actorRef": "SUP-2001",
+      "action": "order.status",
+      "entityRef": "ORD-1005",
+      "message": "SUP-2001 submitted a quotation for ORD-1005",
+      "parties": [
+        "BUY-1001",
+        "SUP-2001"
+      ],
+      "createdAt": "2026-10-20T23:00:00.000Z"
+    },
+    {
+      "id": "ACT-9017",
+      "actorRole": "buyer",
+      "actorRef": "BUY-1001",
+      "action": "order.status",
+      "entityRef": "ORD-1005",
+      "message": "Order ORD-1005 moved to Delivered",
+      "parties": [
+        "BUY-1001",
+        "SUP-2001"
+      ],
+      "createdAt": "2026-10-23T07:00:00.000Z"
+    },
+    {
+      "id": "ACT-9018",
+      "actorRole": "buyer",
+      "actorRef": "BUY-1004",
+      "action": "order.create",
+      "entityRef": "ORD-1006",
+      "message": "BUY-1004 submitted purchase request REQ-5006 (ORD-1006)",
+      "parties": [
+        "BUY-1004",
+        "SUP-2008"
+      ],
+      "createdAt": "2026-10-26T09:00:00.000Z"
+    },
+    {
+      "id": "ACT-9019",
+      "actorRole": "supplier",
+      "actorRef": "SUP-2008",
+      "action": "order.status",
+      "entityRef": "ORD-1006",
+      "message": "SUP-2008 submitted a quotation for ORD-1006",
+      "parties": [
+        "BUY-1004",
+        "SUP-2008"
+      ],
+      "createdAt": "2026-10-26T23:00:00.000Z"
+    },
+    {
+      "id": "ACT-9020",
+      "actorRole": "buyer",
+      "actorRef": "BUY-1005",
+      "action": "order.create",
+      "entityRef": "ORD-1007",
+      "message": "BUY-1005 submitted purchase request REQ-5007 (ORD-1007)",
+      "parties": [
+        "BUY-1005",
+        "SUP-2005"
+      ],
+      "createdAt": "2026-10-28T09:00:00.000Z"
+    },
+    {
+      "id": "ACT-9021",
+      "actorRole": "buyer",
+      "actorRef": "BUY-1004",
+      "action": "order.status",
+      "entityRef": "ORD-1006",
+      "message": "Order ORD-1006 moved to Dispatched",
+      "parties": [
+        "BUY-1004",
+        "SUP-2008"
+      ],
+      "createdAt": "2026-10-28T17:00:00.000Z"
+    },
+    {
+      "id": "ACT-9022",
+      "actorRole": "supplier",
+      "actorRef": "SUP-2005",
+      "action": "order.status",
+      "entityRef": "ORD-1007",
+      "message": "SUP-2005 submitted a quotation for ORD-1007",
+      "parties": [
+        "BUY-1005",
+        "SUP-2005"
+      ],
+      "createdAt": "2026-10-28T23:00:00.000Z"
+    },
+    {
+      "id": "ACT-9023",
+      "actorRole": "buyer",
+      "actorRef": "BUY-1005",
+      "action": "order.status",
+      "entityRef": "ORD-1007",
+      "message": "Order ORD-1007 moved to Dispatched",
+      "parties": [
+        "BUY-1005",
+        "SUP-2005"
+      ],
+      "createdAt": "2026-10-30T17:00:00.000Z"
+    },
+    {
+      "id": "ACT-9024",
+      "actorRole": "buyer",
+      "actorRef": "BUY-1002",
+      "action": "order.create",
+      "entityRef": "ORD-1008",
+      "message": "BUY-1002 submitted purchase request REQ-5008 (ORD-1008)",
+      "parties": [
+        "BUY-1002",
+        "SUP-2002"
+      ],
+      "createdAt": "2026-10-31T09:00:00.000Z"
+    },
+    {
+      "id": "ACT-9025",
+      "actorRole": "supplier",
+      "actorRef": "SUP-2002",
+      "action": "order.status",
+      "entityRef": "ORD-1008",
+      "message": "SUP-2002 submitted a quotation for ORD-1008",
+      "parties": [
+        "BUY-1002",
+        "SUP-2002"
+      ],
+      "createdAt": "2026-10-31T23:00:00.000Z"
+    },
+    {
+      "id": "ACT-9026",
+      "actorRole": "buyer",
+      "actorRef": "BUY-1001",
+      "action": "order.create",
+      "entityRef": "ORD-1009",
+      "message": "BUY-1001 submitted purchase request REQ-5009 (ORD-1009)",
+      "parties": [
+        "BUY-1001",
+        "SUP-2001"
+      ],
+      "createdAt": "2026-11-01T09:00:00.000Z"
+    },
+    {
+      "id": "ACT-9027",
+      "actorRole": "supplier",
+      "actorRef": "SUP-2001",
+      "action": "order.status",
+      "entityRef": "ORD-1009",
+      "message": "SUP-2001 submitted a quotation for ORD-1009",
+      "parties": [
+        "BUY-1001",
+        "SUP-2001"
+      ],
+      "createdAt": "2026-11-01T23:00:00.000Z"
+    },
+    {
+      "id": "ACT-9028",
+      "actorRole": "buyer",
+      "actorRef": "BUY-1002",
+      "action": "order.status",
+      "entityRef": "ORD-1008",
+      "message": "Order ORD-1008 moved to Processing",
+      "parties": [
+        "BUY-1002",
+        "SUP-2002"
+      ],
+      "createdAt": "2026-11-02T03:00:00.000Z"
+    },
+    {
+      "id": "ACT-9029",
+      "actorRole": "buyer",
+      "actorRef": "BUY-1006",
+      "action": "order.create",
+      "entityRef": "ORD-1010",
+      "message": "BUY-1006 submitted purchase request REQ-5010 (ORD-1010)",
+      "parties": [
+        "BUY-1006",
+        "SUP-2007"
+      ],
+      "createdAt": "2026-11-02T09:00:00.000Z"
+    },
+    {
+      "id": "ACT-9030",
+      "actorRole": "supplier",
+      "actorRef": "SUP-2007",
+      "action": "order.status",
+      "entityRef": "ORD-1010",
+      "message": "SUP-2007 submitted a quotation for ORD-1010",
+      "parties": [
+        "BUY-1006",
+        "SUP-2007"
+      ],
+      "createdAt": "2026-11-02T23:00:00.000Z"
+    },
+    {
+      "id": "ACT-9031",
+      "actorRole": "buyer",
+      "actorRef": "BUY-1001",
+      "action": "order.status",
+      "entityRef": "ORD-1009",
+      "message": "Order ORD-1009 moved to Processing",
+      "parties": [
+        "BUY-1001",
+        "SUP-2001"
+      ],
+      "createdAt": "2026-11-03T03:00:00.000Z"
+    },
+    {
+      "id": "ACT-9032",
+      "actorRole": "buyer",
+      "actorRef": "BUY-1007",
+      "action": "order.create",
+      "entityRef": "ORD-1011",
+      "message": "BUY-1007 submitted purchase request REQ-5011 (ORD-1011)",
+      "parties": [
+        "BUY-1007",
+        "SUP-2006"
+      ],
+      "createdAt": "2026-11-03T09:00:00.000Z"
+    },
+    {
+      "id": "ACT-9033",
+      "actorRole": "supplier",
+      "actorRef": "SUP-2006",
+      "action": "order.status",
+      "entityRef": "ORD-1011",
+      "message": "SUP-2006 submitted a quotation for ORD-1011",
+      "parties": [
+        "BUY-1007",
+        "SUP-2006"
+      ],
+      "createdAt": "2026-11-03T23:00:00.000Z"
+    },
+    {
+      "id": "ACT-9034",
+      "actorRole": "buyer",
+      "actorRef": "BUY-1006",
+      "action": "order.status",
+      "entityRef": "ORD-1010",
+      "message": "Order ORD-1010 moved to Processing",
+      "parties": [
+        "BUY-1006",
+        "SUP-2007"
+      ],
+      "createdAt": "2026-11-04T03:00:00.000Z"
+    },
+    {
+      "id": "ACT-9035",
+      "actorRole": "buyer",
+      "actorRef": "BUY-1008",
+      "action": "order.create",
+      "entityRef": "ORD-1012",
+      "message": "BUY-1008 submitted purchase request REQ-5012 (ORD-1012)",
+      "parties": [
+        "BUY-1008",
+        "SUP-2003"
+      ],
+      "createdAt": "2026-11-04T09:00:00.000Z"
+    },
+    {
+      "id": "ACT-9036",
+      "actorRole": "buyer",
+      "actorRef": "BUY-1007",
+      "action": "order.status",
+      "entityRef": "ORD-1011",
+      "message": "Order ORD-1011 moved to Accepted",
+      "parties": [
+        "BUY-1007",
+        "SUP-2006"
+      ],
+      "createdAt": "2026-11-04T13:00:00.000Z"
+    },
+    {
+      "id": "ACT-9037",
+      "actorRole": "supplier",
+      "actorRef": "SUP-2003",
+      "action": "order.status",
+      "entityRef": "ORD-1012",
+      "message": "SUP-2003 submitted a quotation for ORD-1012",
+      "parties": [
+        "BUY-1008",
+        "SUP-2003"
+      ],
+      "createdAt": "2026-11-04T23:00:00.000Z"
+    },
+    {
+      "id": "ACT-9038",
+      "actorRole": "buyer",
+      "actorRef": "BUY-1001",
+      "action": "order.create",
+      "entityRef": "ORD-1013",
+      "message": "BUY-1001 submitted purchase request REQ-5013 (ORD-1013)",
+      "parties": [
+        "BUY-1001",
+        "SUP-2001"
+      ],
+      "createdAt": "2026-11-05T09:00:00.000Z"
+    },
+    {
+      "id": "ACT-9039",
+      "actorRole": "buyer",
+      "actorRef": "BUY-1008",
+      "action": "order.status",
+      "entityRef": "ORD-1012",
+      "message": "Order ORD-1012 moved to Accepted",
+      "parties": [
+        "BUY-1008",
+        "SUP-2003"
+      ],
+      "createdAt": "2026-11-05T13:00:00.000Z"
+    },
+    {
+      "id": "ACT-9040",
+      "actorRole": "supplier",
+      "actorRef": "SUP-2001",
+      "action": "order.status",
+      "entityRef": "ORD-1013",
+      "message": "SUP-2001 submitted a quotation for ORD-1013",
+      "parties": [
+        "BUY-1001",
+        "SUP-2001"
+      ],
+      "createdAt": "2026-11-05T23:00:00.000Z"
+    },
+    {
+      "id": "ACT-9041",
+      "actorRole": "buyer",
+      "actorRef": "BUY-1003",
+      "action": "order.create",
+      "entityRef": "ORD-1014",
+      "message": "BUY-1003 submitted purchase request REQ-5014 (ORD-1014)",
+      "parties": [
+        "BUY-1003",
+        "SUP-2008"
+      ],
+      "createdAt": "2026-11-06T09:00:00.000Z"
+    },
+    {
+      "id": "ACT-9042",
+      "actorRole": "buyer",
+      "actorRef": "BUY-1005",
+      "action": "order.create",
+      "entityRef": "ORD-1015",
+      "message": "BUY-1005 submitted purchase request REQ-5015 (ORD-1015)",
+      "parties": [
+        "BUY-1005",
+        "SUP-2004"
+      ],
+      "createdAt": "2026-11-06T09:00:00.000Z"
+    },
+    {
+      "id": "ACT-9043",
+      "actorRole": "supplier",
+      "actorRef": "SUP-2008",
+      "action": "order.status",
+      "entityRef": "ORD-1014",
+      "message": "SUP-2008 submitted a quotation for ORD-1014",
+      "parties": [
+        "BUY-1003",
+        "SUP-2008"
+      ],
+      "createdAt": "2026-11-06T23:00:00.000Z"
+    },
+    {
+      "id": "ACT-9044",
+      "actorRole": "supplier",
+      "actorRef": "SUP-2004",
+      "action": "order.status",
+      "entityRef": "ORD-1015",
+      "message": "SUP-2004 submitted a quotation for ORD-1015",
+      "parties": [
+        "BUY-1005",
+        "SUP-2004"
+      ],
+      "createdAt": "2026-11-06T23:00:00.000Z"
+    },
+    {
+      "id": "ACT-9045",
+      "actorRole": "buyer",
+      "actorRef": "BUY-1001",
+      "action": "order.create",
+      "entityRef": "ORD-1016",
+      "message": "BUY-1001 submitted purchase request REQ-5016 (ORD-1016)",
+      "parties": [
+        "BUY-1001",
+        "SUP-2001"
+      ],
+      "createdAt": "2026-11-07T09:00:00.000Z"
+    },
+    {
+      "id": "ACT-9046",
+      "actorRole": "buyer",
+      "actorRef": "BUY-1004",
+      "action": "order.create",
+      "entityRef": "ORD-1017",
+      "message": "BUY-1004 submitted purchase request REQ-5017 (ORD-1017)",
+      "parties": [
+        "BUY-1004",
+        "SUP-2010"
+      ],
+      "createdAt": "2026-11-08T09:00:00.000Z"
+    },
+    {
+      "id": "ACT-9047",
+      "actorRole": "buyer",
+      "actorRef": "BUY-1006",
+      "action": "order.create",
+      "entityRef": "ORD-1018",
+      "message": "BUY-1006 submitted purchase request REQ-5018 (ORD-1018)",
+      "parties": [
+        "BUY-1006",
+        "SUP-2007"
+      ],
+      "createdAt": "2026-11-08T09:00:00.000Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": "CAT-1",
+      "name": "Seeds",
+      "icon": "sprout",
+      "image": "/images/categories/seeds.svg"
+    },
+    {
+      "id": "CAT-2",
+      "name": "Fertilizers",
+      "icon": "flask",
+      "image": "/images/categories/fertilizers.svg"
+    },
+    {
+      "id": "CAT-3",
+      "name": "Pesticides",
+      "icon": "shield",
+      "image": "/images/categories/pesticides.svg"
+    },
+    {
+      "id": "CAT-4",
+      "name": "Agricultural Machinery",
+      "icon": "tractor",
+      "image": "/images/categories/agricultural-machinery.svg"
+    },
+    {
+      "id": "CAT-5",
+      "name": "Irrigation Equipment",
+      "icon": "droplets",
+      "image": "/images/categories/irrigation-equipment.svg"
+    },
+    {
+      "id": "CAT-6",
+      "name": "Grains & Crops",
+      "icon": "wheat",
+      "image": "/images/categories/grains-and-crops.svg"
+    },
+    {
+      "id": "CAT-7",
+      "name": "Fruits & Vegetables",
+      "icon": "apple",
+      "image": "/images/categories/fruits-and-vegetables.svg"
+    },
+    {
+      "id": "CAT-8",
+      "name": "Animal Feed",
+      "icon": "beef",
+      "image": "/images/categories/animal-feed.svg"
+    }
+  ]
+}
